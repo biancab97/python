@@ -1,0 +1,705 @@
+﻿"TableInfos"
+"ID";"Title";"ShortTitle";"Identifier";"Summary";"Modified";"ReasonDelivery";"ExplanatoryText";"Language";"Catalog";"Frequency";"Period";"ShortDescription";"Description";"DefaultPresentation";"DefaultSelection";"GraphTypes";"OutputStatus";"Source";"MetaDataModified";"SearchPriority"
+"0";"Werkgelegenheid; banen, lonen, SBI2008 per maand";"Werkgelegenheid; banen, lonen per maand";"83451NED";"banen, arbeidsvolume, maandloon 
+geslacht, leeftijdsklasse, soortbaan, bedrijfstak ";"2023-10-27T02:00:00";"Actualisering";"";"nl";"CBS";"Permaand";"2006 januari - 2023 juli";"
+Deze tabel bevat maandcijfers over banen, arbeidsvolume en loon van werknemers in Nederland. De gegevens in de tabel naar hoofdgroepen van de bedrijfstakken/branches volgens de Standaard Bedrijfsindeling 2008 (SBI2008) zijn verder uit te splitsen naar kenmerken van de werknemer (leeftijd en geslacht) en soort baan.
+
+Gegevens beschikbaar vanaf: 2006. 
+
+Status van de cijfers: 
+De cijfers van 2006 tot en met 2022 zijn definitief. De cijfers van januari 2023 tot en met juni 2023 zijn nader voorlopig, de cijfers van juli 2023 zijn voorlopig.
+
+Wijzigingen per 27 oktober 2023:
+- De cijfers van 2022 zijn definitief geworden.
+- De voorlopige cijfers van juli 2023 zijn toegevoegd. 
+- De cijfers van juni 2023 zijn nader voorlopig geworden.
+
+Wanneer komen er nieuwe cijfers?
+De nieuwe cijfers van augustus 2023 verschijnen in november 2023.
+";"INHOUDSOPGAVE
+
+1. Toelichting
+2. Definities en verklaring van symbolen
+3. Koppelingen naar relevante tabellen en artikelen
+4. Bronnen en methoden
+5. Meer informatie 
+
+1. TOELICHTING
+
+Deze tabel bevat maandcijfers over banen, arbeidsvolume en loon van werknemers in Nederland. De gegevens in de tabel naar hoofdgroepen van de bedrijfstakken/branches volgens de Standaard Bedrijfsindeling 2008 (SBI2008) zijn verder uit te splitsen naar kenmerken van de werknemer (leeftijd en geslacht) en soort baan.
+
+Gegevens beschikbaar vanaf: 2006. 
+
+Status van de cijfers: 
+De cijfers van 2006 tot en met 2022 zijn definitief. De cijfers van januari 2023 tot en met juni 2023 zijn nader voorlopig, de cijfers van juli 2023 zijn voorlopig.
+
+Wijzigingen per 27 oktober 2023:
+- De cijfers van 2022 zijn definitief geworden.
+- De voorlopige cijfers van juli 2023 zijn toegevoegd. 
+- De cijfers van juni 2023 zijn nader voorlopig geworden.
+
+Wanneer komen er nieuwe cijfers?
+De nieuwe cijfers van augustus 2023 verschijnen in november 2023.
+
+2. DEFINITIES EN VERKLARING VAN SYMBOLEN
+
+Definities:
+
+Baan
+Een overeenkomst waarbij een persoon tegen een financiële vergoeding arbeid verricht voor een bedrijf of instelling. Dit kan als werknemer of als zelfstandige.
+Een persoon kan meerdere banen hebben. Bij werknemersbanen wordt een mondelinge of schriftelijke arbeidsovereenkomst afgesloten, waarin salaris en andere arbeidsvoorwaarden zijn vastgelegd. 
+
+Arbeidsvolume 
+De hoeveelheid arbeid die is ingezet in het productieproces, uitgedrukt in arbeidsjaren of gewerkte uren.
+
+Maandloon
+Het maandelijks betaalde brutoloon vóór aftrek van werknemerspremies voor pensioen en vut.
+
+Het maandloon fluctueert per maand. Dit komt doordat de verdeling van het maandloon van verschillende aangiftetijdvakken (vierweken, halfjaar en jaar) naar maandtijdvak afhankelijk is van het aantal kalenderdagen. Zo is het aantal kalenderdagen in februari minder dan die in januari en levert de verdeling daarom een lagere maandloon op. Maand-op-maand vergelijkingen van maandlonen geven daarom minder goed beeld weer van de werkelijke fluctuaties. Jaar-op-jaar vergelijkingen geven een betere weergave van de dynamiek.
+
+Seizoenscorrectie
+Het corrigeren van maand- of kwartaalcijfers voor jaarlijks terugkerende patronen, om de onderliggende ontwikkeling beter zichtbaar te maken. Voorbeelden van deze patronen zijn feest- en vakantiedagen, vakantie-uitkeringen in mei, bonussen in december en temperatuurschommelingen. Door een reeks cijfers voor dergelijke patronen te schonen, kunnen maand- of kwartaalcijfers onderling vergeleken worden zonder storende seizoenseffecten. Zo kan ook beter een omslag in de ontwikkeling worden vastgesteld.
+Bij elke selectie zijn de seizoensgecorrigeerde cijfers separaat berekend. Daardoor zijn de afzonderlijke gecorrigeerde cijfers niet optelbaar.
+De niet gecorrigeerde aantallen worden als gecorrigeerd gepresenteerd als een seizoenspatroon niet aanwezig of te zwak is.
+
+Standaard bedrijfsindeling 2008 (SBI 2008)
+De Nederlandse hiërarchische indeling van economische activiteiten die vanaf 2008 door CBS wordt gebruikt om bedrijfseenheden in te delen naar hun hoofdactiviteit.
+De SBI 2008 kent vijf niveaus, waarvan het hoogste niveau (secties ) door letters en de lagere niveaus (afdelingen, groepen, klassen en subklassen) door cijfers worden aangeduid. De SBI-code is tot en met het niveau van de klassen (vier cijfers), op een aantal uitzonderingen na, gelijk aan de door Eurostat vastgestelde NACE Rev. 2 (Nomenclature générale des Activités économiques dans la Communauté Européenne) die in alle lidstaten van de EU wordt gehanteerd. Genoemde verschillen met de NACE hebben betrekking op activiteiten die in Nederland niet (afzonderlijk) voorkomen en daarom niet in de SBI opgenomen zijn, zoals ijzerwinning en kleuteronderwijs. De subklasse, aangegeven door vijf cijfers, is een nadere Nederlandse verbijzondering. Om ruimte te maken voor de uitsplitsing in subklassen is incidenteel een viercijferige code toegevoegd aan de NACE-codering. Ook hierdoor komen in enkele gevallen de vier-cijferige codes van NACE en SBI niet geheel overeen. 
+Op het niveau van de afdeling (twee cijfers) stemmen SBI 2008 en NACE Rev. 2 overeen met de ISIC Rev. 4 (International Standard Industrial Classification of All Economic Activities), de door de Verenigde Naties aanbevolen classificatie van economische activiteiten. 
+De SBI kent jaarlijkse aanpassingen die aangeduid worden met /""/SBI 2008, versie 201x/""/. 
+Voorganger van de SBI 2008 was de SBI '93 die door CBS vanaf 1993 werd gehanteerd. 
+
+Verklaring van symbolen:
+
+niets (blanco)	: het cijfer kan op logische gronden niet voorkomen
+. 		: het cijfer is onbekend, onvoldoende betrouwbaar of geheim
+*		: voorlopige cijfers
+**		: nader voorlopige cijfers
+
+De cijfers over maandloon zijn weergegeven in duizendtallen. Hierdoor kan het voorkomen, dat de som van de detailgegevens afwijkt van het totaal.
+
+3. KOPPELINGEN NAAR RELEVANTE TABELLEN EN ARTIKELEN
+
+Relevante tabellen:
+
+Onderstaande tabel bevat informatie over de werkgelegenheid (banen, lonen en arbeidsduur) in Nederland naar SBI'93. 
+<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/80487NED'>Werkgelegenheid; banen, lonen, arbeidsduur; kerncijfers 2006-2009</a>
+
+Onderstaande tabellen bevatten jaarcijfers over banen, arbeidsvolume en loon van werknemers in Nederland:
+<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/81431NED'>Werkgelegenheid; banen, lonen, arbeidsduur, SBI2008; kerncijfers</a>
+<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/81432NED'>Werkgelegenheid; geslacht, dienstverband, bedrijfsgrootte, SBI2008</a>
+<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/81433NED'>Werkgelegenheid; geslacht, dienstverband, kenmerken baan, SBI2008</a>
+<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/81434NED'>Werkgelegenheid; geslacht, dienstverband, kenmerken werknemer, SBI2008</a>
+<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/81462NED'>Werkgelegenheid; geslacht, dienstverband, bedrijfsgrootte, cao-sector </a>
+<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/81463NED'>Werkgelegenheid; geslacht, dienstverband, kenmerken baan, cao-sector</a>
+<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/81464NED'>Werkgelegenheid; geslacht, dienstverband, kenmerken werknemer, cao-sector </a>
+
+Relevante artikelen:
+
+CBS publiceert gegevens over het aantal mensen dat werkt als werknemer of zelfstandige. Deze gegevens zijn afkomstig uit verschillende statistieken die allen een eigen doel dienen, en zijn vaak gebaseerd op verschillende bronnen. Ook zijn de uitkomsten niet altijd op dezelfde wijze gedefinieerd of geoperationaliseerd. In het artikel <a href='https://www.cbs.nl/nl-nl/achtergrond/2016/04/werknemers-en-zelfstandigen-overeenkomsten-en-verschillen-tussen-cbs-cijfers'>Werknemers en zelfstandigen: overeenkomsten en verschillen tussen CBS-cijfers</a> worden de belangrijkste CBS-cijfers over het aantal werknemers en zelfstandigen op een rij gezet en de verschillen tussen deze cijfers verklaard.
+
+Meer informatie is te vinden op de themapagina <a href='https://www.cbs.nl/nl-nl/arbeid-en-inkomen/arbeid-en-sociale-zekerheid '>Arbeid en Sociale zekerheid</a>. 
+
+Een uitgebreid overzicht van de verschillende uitkomsten over lonen en loonkosten die het CBS publiceert, met veel achtergrondinformatie en veel verhelderende grafieken: <a href='https://www.cbs.nl/nl-nl/longread/rapportages/2021/lonen-en-loonkosten-een-overzicht-van-de-verschillende-cbs-cijfers'>Lonen en loonkosten, een overzicht van de verschillende CBS-cijfers</a>.
+
+4. BRONNEN EN METHODEN
+
+De werkgelegenheidscijfers zijn gebaseerd op de banenbestanden afkomstig uit het Stelsel van Sociaal Statistische Bestanden (SSB). De Polisadministratie is de bron voor deze banenbestanden. Deze bron is afkomstig van het UWV en is gebaseerd op het totaal van alle Loonaangiften bij de Belastingdienst. De Polisadministratie is de directe of indirecte bron verschillende statistieken. Op basis van deze bron wordt onder meer bepaald hoeveel werknemersbanen er zijn in Nederland, met de daarbij behorende karakteristieken. 
+
+Met ingang van verslagjaar 2010 is de methode van baanafbakening uit de Polisadministratie gewijzigd. Deze methodewijziging is doorgevoerd, omdat uit onderzoek is gebleken dat er ongeveer 1% van het totaal aantal banen niet meegenomen is bij het selecteren van banen uit de brondata. De nieuwe methode neemt deze banen wel mee. Deze extra banen zijn in het algemeen evenwichtig verdeeld over de bedrijfstakken. Het overgrote deel van deze banen betreft banen zonder werknemersverzekeringen; ongeveer één derde zijn directeur-grootaandeelhouders met een eigen bedrijf. De breuk die hierdoor ontstaat is zichtbaar bij de selectie op soort baan ‘directeur-grootaandeelhouder’. 
+
+CBS voegt bedrijven en instellingen vanaf 2010 in een beperkt aantal gevallen op een andere manier samen tot ondernemingengroepen dan daarvoor het geval was. Een andere wijziging is dat het aantal werkzame personen en daarvan afgeleid de grootteklasse van bedrijven in het Algemeen Bedrijvenregister (ABR) van CBS vanaf 2010 meer dan voorheen is gebaseerd op individuele gegevens uit de Polisadministratie van het UWV. Door deze veranderingen kan het voorkomen dat de codering volgens de 
+Standaard Bedrijfsindeling (SBI 2008) en/of de grootteklasse van een bedrijf of ondernemingengroep wijzigen. Dit kan in sommige gevallen gevolgen hebben voor de uitkomsten van een statistiek, vooral voor de uitkomsten per branche/bedrijfstak of grootteklasse.
+
+Het aantal banen van oproepkrachten in de sector G-Handel is in de maand januari 2018 met ruim 100 duizend gedaald ten opzichte van de maand daarvoor. 
+Deze daling is vooral veroorzaakt doordat een grote groep werknemers in 2017 ten onrechte als oproepkracht opgegeven werd; het hadden werknemers met regulier contract moeten zijn.
+
+Tussen december 2019 en januari 2020 is er een trendbreuk bij de volgende onderwerpen: 'Soort baan: op oproepbasis', 'Soort baan: op uitzendbasis', 'Regulier en WSW, bepaalde tijd'. Dit komt doordat bij invoering van de Wet Arbeidsmarkt in Balans (WAB) in januari 2020 bij veel bedrijven de invulling van de rubrieken die hieraan ten grondslag liggen, is herzien.
+
+De bedrijfstak van de baan is afkomstig van het Algemene Bedrijvenregister (ABR) van CBS. In het ABR zijn per bedrijfseenheid bedrijfsgegevens opgenomen. Tot en met 2014 werden bij de verwerking van de Polisbestanden enkele correcties uitgevoerd. Dit had vooral betrekking op de SBI 64200 (Financiële holdings). Als de branchecode van de Polisbestanden afweek van de SBI 64200 werd deze SBI omgecodeerd naar een code die meer in overeenstemming was met de branchecode. Na 2014 wordt deze hercodering niet meer toegepast. De breuk die hierdoor ontstaat is zichtbaar bij de selectie op sector ‘K - Financiële instellingen’ en betreft vooral directeur-grootaandeelhouders.
+
+De onderzoeksmethode van deze tabel is te vinden in de onderzoeksbeschrijving <a href='https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/korte-onderzoeksbeschrijvingen/statistiek-werkgelegenheid-en-lonen--swl---maandcijfers'>Statistiek Werkgelegenheid en Lonen (SWL), maandcijfers</a>.
+
+De cijfers vanaf maart 2020 zijn gemaakt met een versie van de Polisadministratie waaruit voorheen niet werd gepubliceerd. De meest recente maand van publicatie is vanaf toen een maand naar voren opgeschoven. Deze versnelling van een maand kan (op onderdelen) worden ingetrokken als blijkt dat deze versie niet voldoet aan de plausibiliteitseisen.
+
+5. MEER INFORMATIE
+
+<a href='https://www.cbs.nl/nl-nl/over-ons/contact/infoservice'>Infoservice</a>
+
+Copyright (c) Centraal Bureau voor de Statistiek, Den Haag/Heerlen 
+Verveelvoudiging is toegestaan, mits het CBS als bron wordt vermeld.";"ts=1697620460255&graphtype=Table&r=KenmerkenBaan,BedrijfstakkenBranchesSBI2008,Perioden&k=Topics";"$filter=((KenmerkenBaan eq '10000  ') or (KenmerkenBaan eq '100460 ')) and ((BedrijfstakkenBranchesSBI2008 eq 'T001081') or (BedrijfstakkenBranchesSBI2008 eq '389100 ') or (BedrijfstakkenBranchesSBI2008 eq '422400 ')) and ((Perioden eq '2021MM10') or (Perioden eq '2021MM11') or (Perioden eq '2021MM12') or (Perioden eq '2022MM01') or (Perioden eq '2022MM02') or (Perioden eq '2022MM03') or (Perioden eq '2022MM04') or (Perioden eq '2022MM05') or (Perioden eq '2022MM06') or (Perioden eq '2022MM07') or (Perioden eq '2022MM08') or (Perioden eq '2022MM09') or (Perioden eq '2022MM10') or (Perioden eq '2022MM11') or (Perioden eq '2022MM12') or (Perioden eq '2023MM01') or (Perioden eq '2023MM02') or (Perioden eq '2023MM03') or (Perioden eq '2023MM04') or (Perioden eq '2023MM05') or (Perioden eq '2023MM06') or (Perioden eq '2023MM07'))";"Table,Bar,Line";"Regulier";"CBS.";"2023-10-27T02:00:00";"2"
+"DataProperties"
+ID;Position;ParentID;Type;Key;Title;Description;ReleasePolicy;Datatype;Unit;Decimals;Default
+"0";"0";;"Dimension";"KenmerkenBaan";"Kenmerken baan";"";;;;;
+"1";"1";;"Dimension";"BedrijfstakkenBranchesSBI2008";"Bedrijfstakken / branches (SBI2008)";"";;;;;
+"2";"2";;"TimeDimension";"Perioden";"Perioden";"";"true";;;;
+"3";;;"TopicGroup";"";"Banen";"Baan
+Een overeenkomst waarbij een persoon tegen een financiële vergoeding arbeid verricht voor een bedrijf of instelling. In deze tabel zijn alleen werknemers in loondienst opgenomen.
+Een persoon kan meerdere banen hebben. Bij werknemersbanen wordt een mondelinge of schriftelijke arbeidsovereenkomst afgesloten, waarin salaris en andere arbeidsvoorwaarden zijn vastgelegd.
+Bij de bepaling van het gemiddeld aantal banen over een periode wordt rekening gehouden met de begin- en einddatum van de baan, echter niet met de wekelijkse arbeidsduur. Twee opeenvolgende banen met elk een duur van zes maanden tellen voor een baan in het jaargemiddelde, los van de vraag of het om voltijd- of deeltijdbanen gaat.
+";;;;;
+"4";"3";"3";"Topic";"BanenMetSeizoenscorrectie_1";"Banen: met seizoenscorrectie";"Baan
+Een overeenkomst waarbij een persoon tegen een financiële vergoeding arbeid verricht voor een bedrijf of instelling. In deze tabel zijn alleen werknemers in loondienst opgenomen.
+Een persoon kan meerdere banen hebben. Bij werknemersbanen wordt een mondelinge of schriftelijke arbeidsovereenkomst afgesloten, waarin salaris en andere arbeidsvoorwaarden zijn vastgelegd.
+Bij de bepaling van het gemiddeld aantal banen over een periode wordt rekening gehouden met de begin- en einddatum van de baan, echter niet met de wekelijkse arbeidsduur. Twee opeenvolgende banen met elk een duur van zes maanden tellen voor een baan in het jaargemiddelde, los van de vraag of het om voltijd- of deeltijdbanen gaat.
+
+Seizoenscorrectie
+Het corrigeren van maand- of kwartaalcijfers voor jaarlijks terugkerende patronen, om de onderliggende ontwikkeling beter zichtbaar te maken. Voorbeelden van deze patronen zijn feest- en vakantiedagen, vakantie-uitkeringen in mei, bonussen in december en temperatuurschommelingen. Door een reeks cijfers voor dergelijke patronen te schonen, kunnen maand- of kwartaalcijfers onderling vergeleken worden zonder storende seizoenseffecten. Zo kan ook beter een omslag in de ontwikkeling worden vastgesteld.
+Bij elke selectie zijn de seizoensgecorrigeerde cijfers separaat berekend. Daardoor zijn de afzonderlijke gecorrigeerde cijfers niet optelbaar.
+De niet gecorrigeerde aantallen worden als gecorrigeerd gepresenteerd als een seizoenspatroon niet aanwezig of te zwak is.
+";;"Long";"x 1 000";"0";"Impossible"
+"5";"4";"3";"Topic";"BanenZonderSeizoenscorrectie_2";"Banen: zonder seizoenscorrectie";"Baan
+Een overeenkomst waarbij een persoon tegen een financiële vergoeding arbeid verricht voor een bedrijf of instelling. In deze tabel zijn alleen werknemers in loondienst opgenomen.
+Een persoon kan meerdere banen hebben. Bij werknemersbanen wordt een mondelinge of schriftelijke arbeidsovereenkomst afgesloten, waarin salaris en andere arbeidsvoorwaarden zijn vastgelegd.
+Bij de bepaling van het gemiddeld aantal banen over een periode wordt rekening gehouden met de begin- en einddatum van de baan, echter niet met de wekelijkse arbeidsduur. Twee opeenvolgende banen met elk een duur van zes maanden tellen voor een baan in het jaargemiddelde, los van de vraag of het om voltijd- of deeltijdbanen gaat.
+
+Seizoenscorrectie
+Het corrigeren van maand- of kwartaalcijfers voor jaarlijks terugkerende patronen, om de onderliggende ontwikkeling beter zichtbaar te maken. Voorbeelden van deze patronen zijn feest- en vakantiedagen, vakantie-uitkeringen in mei, bonussen in december en temperatuurschommelingen. Door een reeks cijfers voor dergelijke patronen te schonen, kunnen maand- of kwartaalcijfers onderling vergeleken worden zonder storende seizoenseffecten. Zo kan ook beter een omslag in de ontwikkeling worden vastgesteld.
+Bij elke selectie zijn de seizoensgecorrigeerde cijfers separaat berekend. Daardoor zijn de afzonderlijke gecorrigeerde cijfers niet optelbaar.
+De niet gecorrigeerde aantallen worden als gecorrigeerd gepresenteerd als een seizoenspatroon niet aanwezig of te zwak is.
+";;"Long";"x 1 000";"0";"Impossible"
+"6";;;"TopicGroup";"";"Arbeidsvolume";"Arbeidsvolume
+De hoeveelheid arbeid in arbeidsjaren (voltijdequivalenten (vte)).
+Deeltijdbanen dragen hieraan bij naar rato van de wekelijkse arbeidsduur (exclusief overwerk, na aftrek van ADV).
+Bij de bepaling van het gemiddeld arbeidsvolume over een periode wordt rekening gehouden met zowel de begin- en einddatum van de baan als met de wekelijkse arbeidsduur. Twee opeenvolgende banen met elk een duur van zes maanden dragen samen een arbeidsjaar bij aan het jaargemiddelde als het voltijdbanen zijn, maar minder dan een arbeidsjaar als het deeltijdbanen zijn.
+";;;;;
+"7";"5";"6";"Topic";"ArbeidsvolumeMetSeizoenscorrectie_3";"Arbeidsvolume: met seizoenscorrectie";"Arbeidsvolume
+De hoeveelheid arbeid in arbeidsjaren (voltijdequivalenten (vte)).
+Deeltijdbanen dragen hieraan bij naar rato van de wekelijkse arbeidsduur (exclusief overwerk, na aftrek van ADV).
+Bij de bepaling van het gemiddeld arbeidsvolume over een periode wordt rekening gehouden met zowel de begin- en einddatum van de baan als met de wekelijkse arbeidsduur. Twee opeenvolgende banen met elk een duur van zes maanden dragen samen een arbeidsjaar bij aan het jaargemiddelde als het voltijdbanen zijn, maar minder dan een arbeidsjaar als het deeltijdbanen zijn.
+
+Seizoenscorrectie
+Het corrigeren van maand- of kwartaalcijfers voor jaarlijks terugkerende patronen, om de onderliggende ontwikkeling beter zichtbaar te maken. Voorbeelden van deze patronen zijn feest- en vakantiedagen, vakantie-uitkeringen in mei, bonussen in december en temperatuurschommelingen. Door een reeks cijfers voor dergelijke patronen te schonen, kunnen maand- of kwartaalcijfers onderling vergeleken worden zonder storende seizoenseffecten. Zo kan ook beter een omslag in de ontwikkeling worden vastgesteld.
+Bij elke selectie zijn de seizoensgecorrigeerde cijfers separaat berekend. Daardoor zijn de afzonderlijke gecorrigeerde cijfers niet optelbaar.
+De niet gecorrigeerde aantallen worden als gecorrigeerd gepresenteerd als een seizoenspatroon niet aanwezig of te zwak is.
+";;"Long";"x 1 000";"0";"Impossible"
+"8";"6";"6";"Topic";"ArbeidsvolumeZonderSeizoenscorrectie_4";"Arbeidsvolume: zonder seizoenscorrectie";"Arbeidsvolume
+De hoeveelheid arbeid in arbeidsjaren (voltijdequivalenten (vte)).
+Deeltijdbanen dragen hieraan bij naar rato van de wekelijkse arbeidsduur (exclusief overwerk, na aftrek van ADV).
+Bij de bepaling van het gemiddeld arbeidsvolume over een periode wordt rekening gehouden met zowel de begin- en einddatum van de baan als met de wekelijkse arbeidsduur. Twee opeenvolgende banen met elk een duur van zes maanden dragen samen een arbeidsjaar bij aan het jaargemiddelde als het voltijdbanen zijn, maar minder dan een arbeidsjaar als het deeltijdbanen zijn.
+
+Seizoenscorrectie
+Het corrigeren van maand- of kwartaalcijfers voor jaarlijks terugkerende patronen, om de onderliggende ontwikkeling beter zichtbaar te maken. Voorbeelden van deze patronen zijn feest- en vakantiedagen, vakantie-uitkeringen in mei, bonussen in december en temperatuurschommelingen. Door een reeks cijfers voor dergelijke patronen te schonen, kunnen maand- of kwartaalcijfers onderling vergeleken worden zonder storende seizoenseffecten. Zo kan ook beter een omslag in de ontwikkeling worden vastgesteld.
+Bij elke selectie zijn de seizoensgecorrigeerde cijfers separaat berekend. Daardoor zijn de afzonderlijke gecorrigeerde cijfers niet optelbaar.
+De niet gecorrigeerde aantallen worden als gecorrigeerd gepresenteerd als een seizoenspatroon niet aanwezig of te zwak is.
+";;"Long";"x 1 000";"0";"Impossible"
+"9";;;"TopicGroup";"";"Maandloon";"Maandloon 
+Het maandloon is het overeengekomen bruto loon, exclusief bijzondere beloning, maar inclusief de fiscale waarde van niet in geld uitgekeerde belaste vergoedingen plus overwerkloon. Het belaste privé-voordeel van de auto van de zaak wordt niet tot het maandloon gerekend. Er wordt onderscheid gemaakt tussen het maandloon inclusief overwerkloon en exclusief overwerkloon.
+";;;;;
+"10";"7";"9";"Topic";"MaandloonInclusiefOverwerk_5";"Maandloon: inclusief overwerk";"Maandloon 
+Het maandloon is het overeengekomen bruto loon, exclusief bijzondere beloning, maar inclusief de fiscale waarde van niet in geld uitgekeerde belaste vergoedingen plus overwerkloon. Het belaste privé-voordeel van de auto van de zaak wordt niet tot het maandloon gerekend. Er wordt onderscheid gemaakt tussen het maandloon inclusief overwerkloon en exclusief overwerkloon.
+
+Overwerk
+Loon uit overwerk bevat de beloning voor de meer gewerkte uren indien een toeslag van toepassing is. De beloning voor deze uren is inclusief de toeslag.
+";;"Long";"euro";"0";"Impossible"
+"11";"8";"9";"Topic";"MaandloonExclusiefOverwerk_6";"Maandloon: exclusief overwerk";"Maandloon 
+Het maandloon is het overeengekomen bruto loon, exclusief bijzondere beloning, maar inclusief de fiscale waarde van niet in geld uitgekeerde belaste vergoedingen plus overwerkloon. Het belaste privé-voordeel van de auto van de zaak wordt niet tot het maandloon gerekend. Er wordt onderscheid gemaakt tussen het maandloon inclusief overwerkloon en exclusief overwerkloon.
+
+Overwerk
+Loon uit overwerk bevat de beloning voor de meer gewerkte uren indien een toeslag van toepassing is. De beloning voor deze uren is inclusief de toeslag.
+";;"Long";"euro";"0";"Impossible"
+"KenmerkenBaan"
+Key;Title;Description
+"10000  ";"Totaal";""
+"3000   ";"Geslacht: mannen";""
+"4000   ";"Geslacht: vrouwen";""
+"41100  ";"Leeftijd: jonger dan 15 jaar";""
+"70400  ";"Leeftijd: 15 tot 20 jaar";""
+"70500  ";"Leeftijd: 20 tot 25 jaar";""
+"70600  ";"Leeftijd: 25 tot 30 jaar";""
+"70700  ";"Leeftijd: 30 tot 35 jaar";""
+"70800  ";"Leeftijd: 35 tot 40 jaar";""
+"70900  ";"Leeftijd: 40 tot 45 jaar";""
+"71000  ";"Leeftijd: 45 tot 50 jaar";""
+"71100  ";"Leeftijd: 50 tot 55 jaar";""
+"71200  ";"Leeftijd: 55 tot 60 jaar";""
+"71300  ";"Leeftijd: 60 tot 65 jaar";""
+"53925  ";"Leeftijd: 65 tot 75 jaar";""
+"21600  ";"Leeftijd: 75 jaar of ouder";""
+"100450 ";"Soort baan: directeur-grootaandeelhouder";"(Mede)eigenaar van een bedrijf die als directeur in loondienst is van het (eigen) bedrijf."
+"100460 ";"Soort baan: op oproepbasis";"Baan waarvan de werkzaamheden worden uitgevoerd op oproep of afroep van de werkgever. Er is voor dit werk geen vaste arbeidsduur overeengekomen."
+"100470 ";"Soort baan: op uitzendbasis";"Baan van een persoon die ingeschreven is bij een uitzendbureau en die met dat bureau een arbeidsverhouding is aangegaan tot het verrichten van werkzaamheden op tijdelijke basis voor derden."
+"100423 ";"Soort baan: reguliere baan en WSW";"Reguliere banen exclusief:
+- stageplekken (baan bezet door een leerling of student met een leerdoelstelling, waarvan de beloning valt onder de loonaangifte);
+- directeur-grootaandeelhouder (dga, (mede-)eigenaar van een bedrijf die als directeur in loondienst is van het (eigen) bedrijf).
+"
+"100425 ";"Regulier en WSW, bepaalde tijd";"Reguliere banen met contract voor bepaalde tijd exclusief:
+- stageplekken (baan bezet door een leerling of student met een leerdoelstelling, waarvan de beloning valt onder de loonaangifte);
+- directeur-grootaandeelhouder (dga, (mede-)eigenaar van een bedrijf die als directeur in loondienst is van het (eigen) bedrijf).
+
+Banen die vallen onder de Wet sociale werkvoorziening (WSW) vallen in deze publicatie ook onder de reguliere banen.
+"
+"100424 ";"Regulier en WSW, onbepaalde tijd";"Reguliere banen met contract voor onbepaalde tijd exclusief:
+- stageplekken (baan bezet door een leerling of student met een leerdoelstelling, waarvan de beloning valt onder de loonaangifte);
+- directeur-grootaandeelhouder (dga, (mede-)eigenaar van een bedrijf die als directeur in loondienst is van het (eigen) bedrijf).
+
+De werknemer geniet ontslagbescherming. Eenzijdige opzegging door de werkgever is mogelijk als daarvoor onderbouwde redenen bestaan.  Soms is een juridische toetsing door UWV of kantonrechter onderdeel van de ontslagprocedure. Een meer eenvoudige route is het ontslag met wederzijds goedvinden.
+
+Banen die vallen onder de Wet sociale werkvoorziening (WSW) vallen in deze publicatie ook onder de reguliere banen.
+"
+"100430 ";"Soort baan: stageplek";"Baan bezet door een leerling of student met een leerdoelstelling, waarvan de beloning valt onder de loonaangifte.
+Onder de loonaangifte wordt hier verstaan de per 1 januari 2006 ingevoerde wettelijke regeling en bijbehorende uitvoering die voorschrijft dat inhoudingsplichtigen per maand, vier weken, kwartaal of jaar elektronisch aangifte moeten doen ten behoeve van de loonbelasting, premies volksverzekeringen, premies werknemersverzekeringen en de inkomensafhankelijke bijdrage Zorgverzekeringswet.
+"
+"BedrijfstakkenBranchesSBI2008"
+Key;Title;Description
+"T001081";"A-U alle economische activiteiten";"A-U Alle economische activiteiten
+Alle economische activiteiten
+Deze categorie is een samentelling van categorieën:
+A Landbouw, bosbouw en visserij
+B Winning van delfstoffen
+C Industrie
+D Productie en distributie van en handel in elektriciteit, aardgas, stoom en gekoelde lucht
+E Winning en distributie van water; afval- en afvalwaterbeheer en sanering
+F Bouwnijverheid
+G Groot- en detailhandel; reparatie van auto's
+H Vervoer en opslag
+I Logies-, maaltijd- en drankverstrekking
+J Informatie en communicatie
+K Financiële instellingen
+L Verhuur van en handel in onroerend goed
+M Advisering, onderzoek en overige specialistische zakelijke dienstverlening
+N Verhuur van roerende goederen en overige zakelijke dienstverlening
+O Openbaar bestuur, overheidsdiensten en verplichte sociale verzekeringen
+P Onderwijs
+Q Gezondheids- en welzijnszorg
+R Cultuur, sport en recreatie
+S Overige dienstverlening
+T Huishoudens als werkgever; niet-gedifferentieerde productie van goederen en diensten door huishoudens voor eigen gebruik
+U Extraterritoriale organisaties en lichamen
+Voor de categorieën T en U zijn geen kerncijfers bepaald.
+"
+"300035 ";"A-F Landbouw en nijverheid";"Landbouw, nijverheid en energievoorziening
+Deze categorie is een samentelling van categorieën: 
+A Landbouw, bosbouw en visserij
+B Winning van delfstoffen
+C Industrie
+D Productie en distributie van en handel in elektriciteit, aardgas, stoom en gekoelde lucht
+E Winning en distributie van water; afval- en afvalwaterbeheer en sanering
+F Bouwnijverheid"
+"301000 ";"A Landbouw, bosbouw en visserij";"Landbouw, bosbouw en visserij
+Deze sectie omvat:
+- de exploitatie van natuurlijke plantaardige en dierlijke hulpbronnen:
+  w.o. de akkerbouw, veeteelt en de productie van overige planten en dieren op een agrarisch bedrijf of in het natuurlijke leefgebied;
+  w.o. bosbouw, houtteelt en jacht;
+  w.o. specifieke loondiensten met betrekking tot het productieproces landbouw, jacht en bosbouw worden eveneens in deze sectie ingedeeld;
+  w.o. visserij: de vangst of het kweken van vis, schaaldieren en weekdieren."
+"300003 ";"B-F Nijverheid en energie";"Nijverheid en energie
+Deze categorie is een samentelling van categorieën: 
+B Winning van delfstoffen
+C Industrie
+D Productie en distributie van en handel in elektriciteit, aardgas, stoom en gekoelde lucht
+E Winning en distributie van water; afval- en afvalwaterbeheer en sanering
+F Bouwnijverheid"
+"300002 ";"B-E Nijverheid (geen bouw) en energie";"Nijverheid (geen bouw) en energie
+Deze categorie is een samentelling van categorieën: 
+B Winning van delfstoffen
+C Industrie
+D Productie en distributie van en handel in elektriciteit, aardgas, stoom en gekoelde lucht
+E Winning en distributie van water; afval- en afvalwaterbeheer en sanering"
+"305700 ";"B Delfstoffenwinning";"Winning van delfstoffen
+Deze sectie omvat:
+- de winning van in de natuur voorkomende mineralen in vaste vorm (steenkool, turf en erts), in vloeibare vorm (aardolie) of in de vorm van een gas (aardgas). Winning vindt plaats door middel van ondergrondse mijnbouw, dagbouw of boringen.
+Deze sectie omvat voorts bijkomende bewerkingen die voor het vervoer en de afzet van de minerale producten noodzakelijk zijn, bijvoorbeeld het vergruizen, malen, wassen, drogen, sorteren of concentreren van ertsen, het vloeibaar maken van aardgas en het briketteren van vaste brandstoffen.
+Deze werkzaamheden worden vaak door de eenheden die de delfstoffen winnen zelf uitgeoefend en/of door andere eenheden in de buurt van de winplaats.
+
+Deze sectie omvat ook:
+- de vervaardiging van steenkool- en bruinkoolbriketten, het sinteren van ertsen;
+- het vergruizen, malen of op andere wijze behandelen van bepaalde soorten aarde, steen en mineralen.
+
+Deze sectie omvat niet:
+- de verwerking van delfstoffen (sectie C);
+- de productie aan de bron van natuurlijk bron- of mineraalwater (1107);
+- de winning, zuivering en distributie van water (3600)."
+"307500 ";"C Industrie";"Industrie
+Deze sectie omvat:
+- de mechanische, fysische of chemische verwerking van materialen, stoffen of onderdelen tot nieuwe producten. De verwerkte materialen, stoffen of onderdelen zijn grondstoffen uit de landbouw, bosbouw, visserij en mijnbouw, alsmede (half)fabricaten uit de industrie.
+- reparatie en installatie van machines, apparatuur en andere benodigdheden voor bedrijven (geen consumentengoederen).
+
+Bij de eenheden in deze sectie gaat het vaak om fabrieken waar gewoonlijk machines en apparaten worden gebruikt. Eenheden waar materialen of stoffen met de hand of in de eigen woning tot nieuwe producten worden verwerkt en die producten op de plaats waar deze zijn gemaakt, zelf verkopen, zoals bakkerijen en kleermakerijen, vallen echter ook onder deze sectie.
+
+Industriële eenheden kunnen materialen zelf verwerken of dit aan andere eenheden uitbesteden. In beide gevallen valt dit onder de sectie Industrie.
+
+Reparatie van huishoudelijke apparaten en consumptiegoederen wordt ingedeeld in afdeling 95; 
+de reparatie van (bedrijfs-)auto's en motoren in afdeling 45: de autobranche.
+
+De vervaardiging van specifieke componenten en onderdelen, toebehoren en hulpstukken voor machines en apparaten wordt gewoonlijk ingedeeld in dezelfde klasse als de vervaardiging van de desbetreffende machines en apparaten.
+De vervaardiging van niet-specifieke componenten en onderdelen voor machines en apparatuur, zoals motoren, zuigers, elektromotoren,
+elektra-installatiemateriaal, kleppen, kogellagers, rollagers, worden in de passende klasse van de sectie industrie ingedeeld.
+
+De sectie omvat niet:
+- activiteiten die niet leiden tot een nieuw product, maar tot een gewijzigde versie van hetzelfde product:
+* het opsplitsen van partijen stukgoederen in kleinere partijen, inclusief het verpakken, herverpakken;
+* het bottelen van producten als alcoholhoudende dranken of chemicaliën;
+* de montage van computers volgens de specifieke wensen van een klant;
+* het mengen van verf;
+Deze activiteiten worden ingedeeld in sectie G (groothandel en detailhandel)."
+"346600 ";"D Energievoorziening";"Productie en distributie van en handel in elektriciteit, aardgas, stoom en gekoelde lucht
+Deze sectie omvat:
+- productie en distributie van en handel in elektriciteit, aardgas en warm water."
+"348000 ";"E Waterbedrijven en afvalbeheer";"Winning en distributie van water; afval- en afvalwaterbeheer en sanering
+Deze sectie omvat:
+- winning en distributie van water;
+- afvalbehandeling en recycling."
+"350000 ";"F Bouwnijverheid";"Bouwnijverheid
+Deze sectie omvat:
+- algemene en gespecialiseerde bouwkundige en civieltechnische werken, de bouwinstallatie en de afwerking van gebouwen.
+Zij omvat ook nieuwbouw, reparatie, aan- en verbouwwerkzaamheden, het optrekken van geprefabriceerde gebouwen of constructies ter plaatse en van tijdelijke bouwwerken.
+
+Onder algemene bouw valt de bouw van woningen, kantoren, winkels en andere vormen van burgerlijke- en utiliteitsbouw enzovoort of de bouw of aanleg van zware constructies als autowegen, straten, bruggen, tunnels, spoorwegen, vliegvelden, havens en andere waterbouwkundige projecten, irrigatiesystemen, rioleringen, industriële installaties, pijpleidingen en elektriciteitsleidingen, sportvoorzieningen enzovoort. Deze werkzaamheden kunnen voor eigen rekening of voor een vast bedrag of op contractbasis worden uitgevoerd. Een deel van de werkzaamheden of soms zelfs alle uitvoerende werkzaamheden kunnen worden uitbesteed aan onderaannemers.
+
+Gespecialiseerde bouw omvat de bouw of aanleg van een gedeelte van bouwwerken en van civieltechnische werken of de hiervoor vereiste voorbereidende werkzaamheden. Er is gewoonlijk sprake van gespecialiseerde werkzaamheden ten behoeve van diverse bouwwerken, waarvoor specifieke ervaring of een speciale uitrusting nodig is. Het heien, leggen van funderingen, boren van waterputten, de cascobouw, het storten van beton, metselen, zetten van natuursteen, de bouw van steigers, dakbedekking enzovoort worden hiertoe gerekend. Gespecialiseerde bouwkundige werkzaamheden worden meestal aan onderaannemers uitbesteed, maar vooral reparaties worden in de bouw rechtstreeks voor de eigenaar van het onroerend goed uitgevoerd.
+
+De bouwinstallatie omvat de installatie van alle voorzieningen waardoor een bouwwerk als zodanig zijn functie kan vervullen. Deze werkzaamheden worden meestal op de bouwplaats zelf verricht, hoewel bepaalde gedeelten ervan in een werkplaats kunnen worden uitgevoerd. Inbegrepen zijn loodgieterswerk, de installatie van verwarmings- en klimaatregelingssystemen, alarmsystemen en andere elektrische apparatuur, sprinklerinstallaties, liften en roltrappen enzovoort. Ook vallen hieronder isolatiewerkzaamheden (vochtwering, warmte- en geluidsisolatie), het aanbrengen van metalen beplating, de installatie van commerciële koelapparatuur, verlichtings- en signaleringssystemen voor wegen, spoorwegen, luchthavens, havens enzovoort. Het uitvoeren van reparaties in verband met deze activiteiten is ook inbegrepen.
+
+De afwerking van gebouwen omvat werkzaamheden die zijn gericht op de afwerking of voltooiing van een bouwwerk, zoals glaszetten, stukadoorswerk, schilderen, sauzen, het aanbrengen van vloer- of wandtegels of van andere bekleding of bedekking zoals parket, tapijt, behang enzovoort, schuren van vloeren, aftimmeren, geluidstechnische werkzaamheden enzovoort. Het uitvoeren van reparaties in verband met deze activiteiten is ook inbegrepen.
+
+Deze sectie omvat niet:
+- de bouw of installatie van industriële apparatuur en machines (bijvoorbeeld de installatie van industriële ovens, turbines enzovoort)
+(sectie C);
+- het optrekken van volledige geprefabriceerde gebouwen of bouwwerken van zelf vervaardigde onderdelen wordt ingedeeld bij de toepasselijke rubriek van de sectie Industrie, afhankelijk van het materiaal waaruit deze voornamelijk bestaan. Indien dit echter beton is, wordt deze activiteit in deze afdeling ingedeeld."
+"300007 ";"G-N Commerciële dienstverlening";"Commerciële dienstverlening
+Deze categorie is een samentelling van categorieën: 
+G Groot- en detailhandel; reparatie van auto's 
+H Vervoer en opslag 
+I Logies-, maaltijd- en drankverstrekking
+J Informatie en communicatie
+K Financiële instellingen 
+L Verhuur van en handel in onroerend goed
+M Advisering, onderzoek en overige specialistische zakelijke dienstverlening
+N Verhuur van roerende goederen en overige zakelijke dienstverlening"
+"300006 ";"G-I Handel, vervoer en horeca";"Handel, vervoer en horeca
+Deze categorie is een samentelling van categorieën: 
+G Groot- en detailhandel; reparatie van auto's 
+H Vervoer en opslag 
+I Logies-, maaltijd- en drankverstrekking"
+"354200 ";"G Handel";"Groot- en detailhandel; reparatie van auto's
+Deze sectie omvat: 
+- de groot- en detailhandel (verkoop zonder aanbrengen van veranderingen) in alle soorten goederen en de diensten die bij de verkoop van goederen worden verleend;
+- tussenhandel/handelsbemiddeling;
+- reparatie van auto's en motoren.
+
+De verkoop zonder bewerking omvat de in de handel gebruikelijke handelingen, bijvoorbeeld sorteren, samenvoegen en combineren van goederen, mengen (versnijden) van goederen (bijvoorbeeld wijn of zand), bottelen (met of zonder reiniging van de fles vooraf), verpakken, opsplitsen en anders verpakken van partijen stukgoederen voor distributie in kleinere hoeveelheden, opslag (al dan niet bevroren of gekoeld), schoonmaken en drogen van landbouwproducten, snijden van houtvezel- of metalen platen voor eigen rekening.
+
+Groothandel is de wederverkoop (verkoop zonder aanbrengen van veranderingen) van nieuwe en gebruikte goederen aan de detailhandel, aan industriële en andere bedrijfsmatige gebruikers, of aan andere groothandelaren, alsmede de handelsbemiddeling bij de aankoop van goederen voor of de verkoop van goederen aan dergelijke personen of bedrijven. De belangrijkste soort van groothandel is de groothandel in goederen, dat wil zeggen groothandelaren die goederen verkopen die zij in eigendom hebben zoals grossiers, dealers, exporteurs, importeurs en coöperatieve inkooporganisaties, verkooporganisaties en verkoopkantoren (detailhandelsbedrijven uitgezonderd) van industriële ondernemingen, die tot taak hebben de producten ervan op de markt te brengen.
+
+Tussenhandel/handelsbemiddeling is het samenbrengen van koper en verkoper of het uitvoeren van transacties voor rekening van derden. Inbegrepen zijn makelaars op goederenbeurzen, commissionairs, en andere op commissiebasis werkzame tussenpersonen.
+
+Detailhandel is de wederverkoop (verkoop zonder aanbrengen van veranderingen) van nieuwe en gebruikte goederen hoofdzakelijk aan het publiek voor persoonlijk of huishoudelijk ge- of verbruik, op de markt of door winkels, warenhuizen, postorderbedrijven, straathandelaren, consumentencoöperaties, veilinghuizen enzovoort. De meeste detailhandelaren zijn eigenaar van de goederen die zij verkopen, maar sommigen werken als tussenpersoon voor een opdrachtgever en verkopen in consignatie dan wel op commissiebasis."
+"383100 ";"H Vervoer en opslag";"Vervoer en opslag
+Deze sectie omvat:
+- het vervoer van personen of goederen, al dan niet volgens een dienstregeling, per spoor, via een pijpleiding, over de weg, over water of door de lucht;
+- de ondersteunende activiteiten als terminal- en parkeerfaciliteiten, vrachtbehandeling, opslag enz.;
+- de posterijen;
+- de verhuur van transportmiddelen met bestuurder of bedienend personeel.
+
+Deze sectie omvat niet:
+- het onderhoud en de reparatie van auto's (45)."
+"389100 ";"I Horeca";"Logies-, maaltijd- en drankverstrekking
+Deze sectie omvat:
+- het aan gasten verschaffen van logies en/of bereide maaltijden, snacks en dranken voor onmiddellijke consumptie. 
+
+De verschillende activiteiten in sectie I overlappen elkaar in zekere mate, omdat bijvoorbeeld de verkoop van dranken een activiteit op zich is, maar ook deel uitmaakt van de activiteiten van een restaurant (waar bij de
+maaltijden dranken worden verstrekt) en dan met de verkoop van maaltijden bij 56.1 (Restaurants) wordt ingedeeld. Evenzo vormt de exploitatie van een restaurant een aparte activiteit, maar kan zij ook deel uitmaken van een bedrijf dat logies verschaft.
+
+Logiesverschaffende eenheden bieden reizigers, vakantiegangers en anderen accommodatie voor kortstondig verblijf (korter dan 3 maanden) aan. Er zijn vele verschillende eenheden. Sommige verschaffen alleen logies, terwijl andere naast logies ook maaltijden en recreatieve faciliteiten aanbieden. Het soort aanvullende dienstverlening kan van eenheid tot eenheid verschillen.
+
+Restaurants verstrekken volledige, voor onmiddellijke consumptie geschikte maaltijden, ongeacht of het traditionele restaurants, zelfbedienings- of afhaalrestaurants, dan wel permanente of tijdelijke viskramen en
+dergelijke met of zonder zitplaatsen zijn. Bepalend is het feit dat er voor onmiddellijke consumptie geschikte maaltijden worden aangeboden, niet het soort gelegenheid dat deze maaltijden verstrekt. 
+
+Deze sectie omvat niet:
+- de productie van maaltijden niet voor onmiddellijke consumptie geschikt of maaltijden of bereid voedsel dat niet als maaltijd wordt beschouwd (SBI 10: voedingsmiddelenindustrie);
+- de verkoop van niet zelf vervaardigd voedsel dat niet als maaltijd wordt beschouwd of van niet voor onmiddellijke consumptie geschikte maaltijden (SBI 46 groothandel of SBI 47 detailhandel afhankelijk van de afnemerscategorie)."
+"391600 ";"J Informatie en communicatie";"Informatie en communicatie
+Deze sectie omvat:
+- de productie en distributie van informatie, de voorziening van de infrastructuur om die informatie door te geven, alsmede activiteiten op het gebied van data- en communicatie-informatietechnologie en het bewerken van data en andere informatie.
+De belangrijkste activiteiten die hier ingedeeld worden zijn het uitgeven (afdeling 58, incl. het uitgeven van software), productie van films en geluidsopnamen (afdeling 59) radio en TV (afdeling 60), telecommunicatie (afdeling 61), informatietechnologie (afdeling 62) en andere dienstverlening op het gebied van informatie (afdeling 63). Uitgeven omvat ook het verkrijgen van de copyrights voor de content (informatieproducten) en het toegankelijk maken hiervan voor een breed publiek. Alle mogelijke vormen van uitgeven vallen onder deze sectie (in drukvorm, elektronisch of audio, op het internet, als multimediaproduct enzovoorts)."
+"396300 ";"K Financiële dienstverlening";"Financiële instellingen
+Deze sectie omvat:
+- financiële instellingen;
+- verzekeringswezen en pensioenfondsen (geen verplichte sociale verzekeringen);
+- financiële beurzen, effectenmakelaars, assurantietussenpersonen, administratiekantoren voor aandelen, waarborgfondsen en dergelijke."
+"402000 ";"L Verhuur en handel van onroerend goed";"Verhuur van en handel in onroerend goed
+Deze sectie omvat: 
+- verhuur van onroerend goed;
+- bemiddeling in en beheer van onroerend goed."
+"300010 ";"M-N Zakelijke dienstverlening";"Zakelijke dienstverlening
+Deze categorie is een samentelling van categorieën: 
+M Advisering, onderzoek en overige specialistische zakelijke dienstverlening
+N Verhuur van roerende goederen en overige zakelijke dienstverlening"
+"403300 ";"M Specialistische zakelijke diensten";"Advisering, onderzoek en overige specialistische zakelijke dienstverlening
+Deze sectie omvat: 
+- gespecialiseerde professionele wetenschappelijke en technische activiteiten. Deze activiteiten vereisen een hoge opleiding en stellen specifieke kennis ter beschikking."
+"410200 ";"N Verhuur en overige zakelijke diensten";"Verhuur van roerende goederen en overige zakelijke dienstverlening
+Deze sectie omvat:
+- activiteiten die zakelijke gebruikers ondersteunen bij de bedrijfsvoering. Het verschil van deze activiteiten met die uit sectie M is dat de activiteiten uit deze sectie niet primair gericht zijn op het overbrengen van expertise en kennis."
+"300013 ";"O-U Niet-commerciële dienstverlening";"Niet-commerciële dienstverlening
+Deze categorie is een samentelling van categorieën: 
+O Openbaar bestuur, overheidsdiensten en verplichte sociale verzekeringen
+P Onderwijs
+Q Gezondheids- en welzijnszorg
+R Cultuur, sport en recreatie
+S Overige dienstverlening
+T Huishoudens als werkgever; niet-gedifferentieerde productie van goederen en diensten door huishoudens voor eigen gebruik
+U Extraterritoriale organisaties en lichamen"
+"300012 ";"O-Q Overheid en zorg";"Overheid en zorg
+Deze categorie is een samentelling van categorieën: 
+O Openbaar bestuur, overheidsdiensten en verplichte sociale verzekeringen
+P Onderwijs
+Q Gezondheids- en welzijnszorg"
+"417400 ";"O Openbaar bestuur en overheidsdiensten";"Openbaar bestuur, overheidsdiensten en verplichte sociale verzekeringen
+Deze sectie omvat:
+- eenheden die deel uitmaken van de lagere of centrale overheid en die tot een goede werking van het bestuur van de samenleving bijdragen en ook het beheer van de verplichte sociale verzekeringsregelingen;
+- defensie, justitie, politie, buitenlandse zaken enzovoort;
+- het algemeen openbaar bestuur (bijvoorbeeld uitvoerende, wetgevende, financiële taken enzovoort op alle bestuursniveaus) en het toezicht op het economische en sociale leven;
+- provincies en gemeentes;
+- het beheer van de verplichte socialeverzekeringsregelingen.
+
+Activiteiten die elders in de SBI zijn geclassificeerd vallen niet onder afdeling 75, ook al worden zij door overheidinstanties uitgevoerd. Enkele voorbeelden:
+- het beheer van het onderwijsstelsel (d.w.z. regelgeving, inspecties, onderwijsprogramma/""/s) valt onder deze sectie O, maar het onderwijs zelf valt onder afdeling 85 /""/Onderwijs/""/;
+- militaire en penitentiaire ziekenhuizen worden ingedeeld bij afdeling 86 /""/Gezondheidszorg/""/;
+- inzameling en verwerking van afvalwater en afval valt onder afdeling 38 /""/Milieudienstverlening/""/."
+"419000 ";"P Onderwijs";"Onderwijs
+Deze sectie omvat:
+- alle vormen van openbaar en particulier onderwijs, op elk niveau en voor elk beroep, zowel mondeling en schriftelijk als via radio en televisie; zowel het onderwijs door de instellingen op de verschillende niveaus van het normale schoolstelsel als volwasseneneducatie, alfabetiseringsprogramma's e.d.
+Volwasseneneducatie waarvan de inhoud vergelijkbaar is met die van het onderwijs op een specifiek niveau wordt bij dat niveau ingedeeld. Op ieder niveau van het initiële onderwijs omvatten de klassen het speciale onderwijs aan lichamelijk of geestelijk gehandicapte leerlingen.
+ 
+Deze sectie omvat ook:
+- het overige onderwijs, zoals autorijscholen.
+
+Deze sectie omvat niet:
+- hoofdzakelijk op ontspanning gericht onderwijs, zoals bridge- en golflessen, dansonderwijs (93 of 94)."
+"422400 ";"Q Gezondheids- en welzijnszorg";"Gezondheids- en welzijnszorg
+Deze sectie omvat:
+- behandeling in algemene en gespecialiseerde ziekenhuizen;
+- geestelijke gezondheidszorg en verslavingszorg, eventueel in combinatie met overnachting;
+- behandeling door medische en paramedische praktijken;
+- ondersteunende activiteiten voor de gezondheidszorg, door bijvoorbeeld laboratoria en ambulancediensten;
+- verpleging, verzorging of begeleiding met huisvesting door bijvoorbeeld verpleeg- en verzorgingshuizen of via begeleid wonen;
+- welzijnszorg, zoals thuiszorg, lokaal welzijnswerk en hulp aan gehandicapten en ouderen;
+- kinderopvang."
+"300014 ";"R-U Cultuur, recreatie, overige diensten";"Cultuur, recreatie, overige diensten
+Deze categorie is een samentelling van categorieën: 
+R Cultuur, sport en recreatie
+S Overige dienstverlening
+T Huishoudens als werkgever; niet-gedifferentieerde productie van goederen en diensten door huishoudens voor eigen gebruik
+U Extraterritoriale organisaties en lichamen
+
+Voor de categorieën T en U zijn geen kerncijfers bepaald.
+"
+"428100 ";"R Cultuur, sport en recreatie";"Cultuur, sport en recreatie
+Deze sectie omvat een wijde range aan activiteiten op het gebied van cultuur en recreatie, zoals culturele voorstellingen, musea, sport en recreatieve evenementen."
+"435500 ";"S Overige dienstverlening";"Overige dienstverlening
+Deze sectie omvat (als restcategorie) de activiteiten van belangenverenigingen, reparatie van computers en consumentenartikelen en veel andere activiteiten op het gebied van persoonlijke dienstverlening die niet elders zijn ingedeeld."
+"Perioden"
+Key;Title;Description;Status
+"2006MM01";"2006 januari";"";"Definitief"
+"2006MM02";"2006 februari";"";"Definitief"
+"2006MM03";"2006 maart";"";"Definitief"
+"2006MM04";"2006 april";"";"Definitief"
+"2006MM05";"2006 mei";"";"Definitief"
+"2006MM06";"2006 juni";"";"Definitief"
+"2006MM07";"2006 juli";"";"Definitief"
+"2006MM08";"2006 augustus";"";"Definitief"
+"2006MM09";"2006 september";"";"Definitief"
+"2006MM10";"2006 oktober";"";"Definitief"
+"2006MM11";"2006 november";"";"Definitief"
+"2006MM12";"2006 december";"";"Definitief"
+"2007MM01";"2007 januari";"";"Definitief"
+"2007MM02";"2007 februari";"";"Definitief"
+"2007MM03";"2007 maart";"";"Definitief"
+"2007MM04";"2007 april";"";"Definitief"
+"2007MM05";"2007 mei";"";"Definitief"
+"2007MM06";"2007 juni";"";"Definitief"
+"2007MM07";"2007 juli";"";"Definitief"
+"2007MM08";"2007 augustus";"";"Definitief"
+"2007MM09";"2007 september";"";"Definitief"
+"2007MM10";"2007 oktober";"";"Definitief"
+"2007MM11";"2007 november";"";"Definitief"
+"2007MM12";"2007 december";"";"Definitief"
+"2008MM01";"2008 januari";"";"Definitief"
+"2008MM02";"2008 februari";"";"Definitief"
+"2008MM03";"2008 maart";"";"Definitief"
+"2008MM04";"2008 april";"";"Definitief"
+"2008MM05";"2008 mei";"";"Definitief"
+"2008MM06";"2008 juni";"";"Definitief"
+"2008MM07";"2008 juli";"";"Definitief"
+"2008MM08";"2008 augustus";"";"Definitief"
+"2008MM09";"2008 september";"";"Definitief"
+"2008MM10";"2008 oktober";"";"Definitief"
+"2008MM11";"2008 november";"";"Definitief"
+"2008MM12";"2008 december";"";"Definitief"
+"2009MM01";"2009 januari";"";"Definitief"
+"2009MM02";"2009 februari";"";"Definitief"
+"2009MM03";"2009 maart";"";"Definitief"
+"2009MM04";"2009 april";"";"Definitief"
+"2009MM05";"2009 mei";"";"Definitief"
+"2009MM06";"2009 juni";"";"Definitief"
+"2009MM07";"2009 juli";"";"Definitief"
+"2009MM08";"2009 augustus";"";"Definitief"
+"2009MM09";"2009 september";"";"Definitief"
+"2009MM10";"2009 oktober";"";"Definitief"
+"2009MM11";"2009 november";"";"Definitief"
+"2009MM12";"2009 december";"";"Definitief"
+"2010MM01";"2010 januari";"";"Definitief"
+"2010MM02";"2010 februari";"";"Definitief"
+"2010MM03";"2010 maart";"";"Definitief"
+"2010MM04";"2010 april";"";"Definitief"
+"2010MM05";"2010 mei";"";"Definitief"
+"2010MM06";"2010 juni";"";"Definitief"
+"2010MM07";"2010 juli";"";"Definitief"
+"2010MM08";"2010 augustus";"";"Definitief"
+"2010MM09";"2010 september";"";"Definitief"
+"2010MM10";"2010 oktober";"";"Definitief"
+"2010MM11";"2010 november";"";"Definitief"
+"2010MM12";"2010 december";"";"Definitief"
+"2011MM01";"2011 januari";"";"Definitief"
+"2011MM02";"2011 februari";"";"Definitief"
+"2011MM03";"2011 maart";"";"Definitief"
+"2011MM04";"2011 april";"";"Definitief"
+"2011MM05";"2011 mei";"";"Definitief"
+"2011MM06";"2011 juni";"";"Definitief"
+"2011MM07";"2011 juli";"";"Definitief"
+"2011MM08";"2011 augustus";"";"Definitief"
+"2011MM09";"2011 september";"";"Definitief"
+"2011MM10";"2011 oktober";"";"Definitief"
+"2011MM11";"2011 november";"";"Definitief"
+"2011MM12";"2011 december";"";"Definitief"
+"2012MM01";"2012 januari";"";"Definitief"
+"2012MM02";"2012 februari";"";"Definitief"
+"2012MM03";"2012 maart";"";"Definitief"
+"2012MM04";"2012 april";"";"Definitief"
+"2012MM05";"2012 mei";"";"Definitief"
+"2012MM06";"2012 juni";"";"Definitief"
+"2012MM07";"2012 juli";"";"Definitief"
+"2012MM08";"2012 augustus";"";"Definitief"
+"2012MM09";"2012 september";"";"Definitief"
+"2012MM10";"2012 oktober";"";"Definitief"
+"2012MM11";"2012 november";"";"Definitief"
+"2012MM12";"2012 december";"";"Definitief"
+"2013MM01";"2013 januari";"";"Definitief"
+"2013MM02";"2013 februari";"";"Definitief"
+"2013MM03";"2013 maart";"";"Definitief"
+"2013MM04";"2013 april";"";"Definitief"
+"2013MM05";"2013 mei";"";"Definitief"
+"2013MM06";"2013 juni";"";"Definitief"
+"2013MM07";"2013 juli";"";"Definitief"
+"2013MM08";"2013 augustus";"";"Definitief"
+"2013MM09";"2013 september";"";"Definitief"
+"2013MM10";"2013 oktober";"";"Definitief"
+"2013MM11";"2013 november";"";"Definitief"
+"2013MM12";"2013 december";"";"Definitief"
+"2014MM01";"2014 januari";"";"Definitief"
+"2014MM02";"2014 februari";"";"Definitief"
+"2014MM03";"2014 maart";"";"Definitief"
+"2014MM04";"2014 april";"";"Definitief"
+"2014MM05";"2014 mei";"";"Definitief"
+"2014MM06";"2014 juni";"";"Definitief"
+"2014MM07";"2014 juli";"";"Definitief"
+"2014MM08";"2014 augustus";"";"Definitief"
+"2014MM09";"2014 september";"";"Definitief"
+"2014MM10";"2014 oktober";"";"Definitief"
+"2014MM11";"2014 november";"";"Definitief"
+"2014MM12";"2014 december";"";"Definitief"
+"2015MM01";"2015 januari";"";"Definitief"
+"2015MM02";"2015 februari";"";"Definitief"
+"2015MM03";"2015 maart";"";"Definitief"
+"2015MM04";"2015 april";"";"Definitief"
+"2015MM05";"2015 mei";"";"Definitief"
+"2015MM06";"2015 juni";"";"Definitief"
+"2015MM07";"2015 juli";"";"Definitief"
+"2015MM08";"2015 augustus";"";"Definitief"
+"2015MM09";"2015 september";"";"Definitief"
+"2015MM10";"2015 oktober";"";"Definitief"
+"2015MM11";"2015 november";"";"Definitief"
+"2015MM12";"2015 december";"";"Definitief"
+"2016MM01";"2016 januari";"";"Definitief"
+"2016MM02";"2016 februari";"";"Definitief"
+"2016MM03";"2016 maart";"";"Definitief"
+"2016MM04";"2016 april";"";"Definitief"
+"2016MM05";"2016 mei";"";"Definitief"
+"2016MM06";"2016 juni";"";"Definitief"
+"2016MM07";"2016 juli";"";"Definitief"
+"2016MM08";"2016 augustus";"";"Definitief"
+"2016MM09";"2016 september";"";"Definitief"
+"2016MM10";"2016 oktober";"";"Definitief"
+"2016MM11";"2016 november";"";"Definitief"
+"2016MM12";"2016 december";"";"Definitief"
+"2017MM01";"2017 januari";"";"Definitief"
+"2017MM02";"2017 februari";"";"Definitief"
+"2017MM03";"2017 maart";"";"Definitief"
+"2017MM04";"2017 april";"";"Definitief"
+"2017MM05";"2017 mei";"";"Definitief"
+"2017MM06";"2017 juni";"";"Definitief"
+"2017MM07";"2017 juli";"";"Definitief"
+"2017MM08";"2017 augustus";"";"Definitief"
+"2017MM09";"2017 september";"";"Definitief"
+"2017MM10";"2017 oktober";"";"Definitief"
+"2017MM11";"2017 november";"";"Definitief"
+"2017MM12";"2017 december";"";"Definitief"
+"2018MM01";"2018 januari";"";"Definitief"
+"2018MM02";"2018 februari";"";"Definitief"
+"2018MM03";"2018 maart";"";"Definitief"
+"2018MM04";"2018 april";"";"Definitief"
+"2018MM05";"2018 mei";"";"Definitief"
+"2018MM06";"2018 juni";"";"Definitief"
+"2018MM07";"2018 juli";"";"Definitief"
+"2018MM08";"2018 augustus";"";"Definitief"
+"2018MM09";"2018 september";"";"Definitief"
+"2018MM10";"2018 oktober";"";"Definitief"
+"2018MM11";"2018 november";"";"Definitief"
+"2018MM12";"2018 december";"";"Definitief"
+"2019MM01";"2019 januari";"";"Definitief"
+"2019MM02";"2019 februari";"";"Definitief"
+"2019MM03";"2019 maart";"";"Definitief"
+"2019MM04";"2019 april";"";"Definitief"
+"2019MM05";"2019 mei";"";"Definitief"
+"2019MM06";"2019 juni";"";"Definitief"
+"2019MM07";"2019 juli";"";"Definitief"
+"2019MM08";"2019 augustus";"";"Definitief"
+"2019MM09";"2019 september";"";"Definitief"
+"2019MM10";"2019 oktober";"";"Definitief"
+"2019MM11";"2019 november";"";"Definitief"
+"2019MM12";"2019 december";"";"Definitief"
+"2020MM01";"2020 januari";"";"Definitief"
+"2020MM02";"2020 februari";"";"Definitief"
+"2020MM03";"2020 maart";"";"Definitief"
+"2020MM04";"2020 april";"";"Definitief"
+"2020MM05";"2020 mei";"";"Definitief"
+"2020MM06";"2020 juni";"";"Definitief"
+"2020MM07";"2020 juli";"";"Definitief"
+"2020MM08";"2020 augustus";"";"Definitief"
+"2020MM09";"2020 september";"";"Definitief"
+"2020MM10";"2020 oktober";"";"Definitief"
+"2020MM11";"2020 november";"";"Definitief"
+"2020MM12";"2020 december";"";"Definitief"
+"2021MM01";"2021 januari";"";"Definitief"
+"2021MM02";"2021 februari";"";"Definitief"
+"2021MM03";"2021 maart";"";"Definitief"
+"2021MM04";"2021 april";"";"Definitief"
+"2021MM05";"2021 mei";"";"Definitief"
+"2021MM06";"2021 juni";"";"Definitief"
+"2021MM07";"2021 juli";"";"Definitief"
+"2021MM08";"2021 augustus";"";"Definitief"
+"2021MM09";"2021 september";"";"Definitief"
+"2021MM10";"2021 oktober";"";"Definitief"
+"2021MM11";"2021 november";"";"Definitief"
+"2021MM12";"2021 december";"";"Definitief"
+"2022MM01";"2022 januari";"";"Definitief"
+"2022MM02";"2022 februari";"";"Definitief"
+"2022MM03";"2022 maart";"";"Definitief"
+"2022MM04";"2022 april";"";"Definitief"
+"2022MM05";"2022 mei";"";"Definitief"
+"2022MM06";"2022 juni";"";"Definitief"
+"2022MM07";"2022 juli";"";"Definitief"
+"2022MM08";"2022 augustus";"";"Definitief"
+"2022MM09";"2022 september";"";"Definitief"
+"2022MM10";"2022 oktober";"";"Definitief"
+"2022MM11";"2022 november";"";"Definitief"
+"2022MM12";"2022 december";"";"Definitief"
+"2023MM01";"2023 januari";"Nader voorlopige cijfers";"NaderVoorlopig"
+"2023MM02";"2023 februari";"Nader voorlopige cijfers";"NaderVoorlopig"
+"2023MM03";"2023 maart";"Nader voorlopige cijfers";"NaderVoorlopig"
+"2023MM04";"2023 april";"Nader voorlopige cijfers";"NaderVoorlopig"
+"2023MM05";"2023 mei";"Nader voorlopige cijfers";"NaderVoorlopig"
+"2023MM06";"2023 juni";"Nader voorlopige cijfers";"NaderVoorlopig"
+"2023MM07";"2023 juli";"Voorlopige cijfers";"Voorlopig"

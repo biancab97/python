@@ -1,12 +1,5 @@
-from flask import Flask
-
-app = Flask(__name__)
-
-@app.route("/")
-def hello_world():
-    return "<p>Hello, World!</p>"
-
-@app.route("/Bianca")
-def Bianca():
-    return "<p>Hello, Bianca!</p>"
+from dash import Dash, html, dcc, callback, Output, Input
+import plotly.express as px
+import pandas as pd
+import salaris
 
