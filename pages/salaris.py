@@ -10,7 +10,6 @@ dash.register_page(__name__)
 # Define the layout of the page
 fig, work_branch_options, df_salaris = plot_barchart()
 
-
 layout = html.Div([
     html.H1('Bar Chart Branches'),
     
