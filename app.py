@@ -7,7 +7,7 @@ dash_app = dash.Dash(__name__, use_pages=True)
 # create app for Azure deploy
 app = dash_app.server
 # Set the layout of the entire app
-dash_app.layout = html.Div(
+dash_app.layout = html.Div( 
     [
         # main app framework
         html.Div("Python Multipage App with Dash!", style={'fontSize': 50, 'textAlign': 'center'}),
