@@ -87,7 +87,7 @@ def leeftijdenSalaris():
     df_salaris["Jaar"] = df_salaris["Jaar"].astype('int64')
 
     # Mask to select only years from 2022 and 'KenmerkenBaan' equals 3000 and 4000
-    salaris_mask = (df_salaris["Jaar"] == 2022) & (df_salaris["KenmerkenBaan"].isin([70500, 70600, 70700, 70800, 70900, 71000]))
+    salaris_mask = (df_salaris["Jaar"] == 2022) & (df_salaris["KenmerkenBaan"].isin([70500, 70600, 70700, 70800, 70900, 71000, 71100, 71200, 71300]))
     df_salaris = df_salaris[salaris_mask]
     
     # Selected columns
