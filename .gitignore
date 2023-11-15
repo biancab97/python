@@ -1,1 +1,4 @@
 __pycache__/**
+/venv
+/pages/__pycache__/**
+/my_app/__pycache__/**
