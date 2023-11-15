@@ -15,7 +15,7 @@ fig, work_branch_options, df_salaris = plot_barchart()
 
 layout = html.Div(children=[
     html.Div([
-    html.H1(children='Bar Chart Branches'),
+    html.H1(children='Bar Chart Branches!'),
     
     # Dropdown for work branches
     dcc.Dropdown(
