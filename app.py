@@ -1,13 +1,13 @@
 import dash
-from dash import html, dcc, Output, Input
+from dash import Dash, html, dcc, callback, Output, Input
 
 #Create app and add the pages
-app = dash.Dash(__name__, use_pages=True)
+dash_app = dash.Dash(__name__, use_pages=True)
 #Create app for Azure deployment
 app = dash_app.server
 
 #Set layout of the entire app
-app.layout = html.Div(
+dash_app.layout = html.Div(
     [#Framework of the main app
         html.Div("Python MultiPage Match App", style={'fontSize': 50, 'textAlign':'center'}),
         html.Div([
@@ -22,4 +22,4 @@ app.layout = html.Div(
 )
         
 if __name__ == "__main__":
-    dash_app.run(debug=True)
+    dash_app.run_server(debug=True)

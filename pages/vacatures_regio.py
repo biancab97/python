@@ -1,19 +1,23 @@
 import dash
-from dash import dash, html, dash_table, dcc, callback, Output, Input
+from dash import Dash, html, dash_table, dcc, callback, Output, Input
+import pandas as pd
 import plotly.express as px
+from my_app.plot_grafieken import plot_table2
+from my_app.datauitlezen import vacatures_regio_uitlezen
 
 #This tells Dash that this is a page
 dash.register_page(__name__)
 
+#vacatures_regio_df - plot_table2()
+
 #Inititialize the app
-app = dash(__name__)
+#app = Dash(__name__)
 
 #App layout
-app.layout = html.Div([
-    html.Div(children='Match App'),
-    html.Hr(),
-    dcc.RadioItems(),
-    dash_table.DataTable(data=vacatures_regio_df.to_dict('records'), page_size=10),
+layout = html.Div([
+    
+    dcc.Dropdown(),
+    #dash_table.DataTable(data=vacatures_regio_df.to_dict('records'), page_size=10),
     dcc.Graph(figure={}, id='controls-and-graph')
 ])
 
@@ -24,7 +28,7 @@ app.layout = html.Div([
 )
 def update_graph(col_chosen):
     fig = px.choropleth(
-        data_frame=vacatures_regio_df,
+        data_frame= '',
         locationmode='',
         locations='',
         scope='',
@@ -34,7 +38,3 @@ def update_graph(col_chosen):
         labels={''},
         template='plotly_dark'
         )
-
-#Run the app
-if __name__ == '__main__':
-    dash_app.run(debug=True)
