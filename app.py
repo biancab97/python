@@ -1,9 +1,9 @@
 import dash
 from dash import Dash, html, dcc, callback, Output, Input
-
+import dash_bootstrap_components as dbc
 
 #Create app and add the pages
-dash_app = dash.Dash(__name__, use_pages=True)
+dash_app = dash.Dash(__name__, use_pages=True, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 #Create app for Azure deployment
 app = dash_app.server

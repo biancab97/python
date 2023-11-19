@@ -42,15 +42,6 @@ def salarisBrancheLabels():
     
     return df_metadata
 
-def kenmerkenBaanLabels():
-     # Specify the path for the metadata file
-    kenmerken_file = 'data/KenmerkenBaancodes.csv'
-    
-    # Read the CSV file into a Pandas DataFrame
-    df_kenmerken = pd.read_csv(kenmerken_file, delimiter=';')
-    
-    return df_kenmerken
-
 def geslachtSalaris():
      # Specify the path for the salaris data file
     salaris_file = 'data/salarisdata.csv'
@@ -97,5 +88,42 @@ def leeftijdenSalaris():
     df_salaris.drop(df_salaris[(df_salaris['KenmerkenBaan'] == '100460') & (df_salaris['KenmerkenBaan'] == '100470')].index, inplace=True)    
 
     return df_salaris
+
+def werkurenUitlezen():
+    '''
+    Selects rows from the DataFrame starting for the year 2022.
+    Selected columns include:
+    - KenmerkenBaanWerknemerBedrijf
+    - BedrijfstakkenBranchesSBI2008
+    - Perioden
+    - PerBaanPerWeekExclusiefOverwerk_11
+    - jaar
+    '''
+    # Specify the path for the werkuren file
+    werkuren_file = 'data/werkuren.csv'
+
+    # Read the CSV file into a Pandas DataFrame
+    df_werkuren = pd.read_csv(werkuren_file, delimiter=';')
+    
+    # Drop rows with 'BedrijfstakkenBranchesSBI2008' value 800009
+    df_werkuren.drop(df_werkuren[(df_werkuren['BedrijfstakkenBranchesSBI2008'] == '800009')].index, inplace=True)   
+   
+    # Mask to select only years from 2022 and 'KenmerkenBaanWerknemerBedrijf' equals 3000 and 4000
+    werkuren_mask = (df_werkuren["KenmerkenBaanWerknemerBedrijf"] .isin(['3000', '4000']))
+    df_werkuren = df_werkuren[werkuren_mask]
+
+    # Select only the first 4 characters of the 'Perioden' column
+    df_werkuren["Jaar"] = df_werkuren["Perioden"].str[:4]
+    df_werkuren["Jaar"] = df_werkuren["Jaar"].astype('int64')
+
+    # Mask to select only years from 2022 and 'KenmerkenBaanWerknemerBedrijf' equals 3000 and 4000
+    werkuren_mask2 = (df_werkuren["Jaar"] == 2022) 
+    df_werkuren = df_werkuren[werkuren_mask2]
+
+    # Selected columns
+    df_werkuren = df_werkuren[["KenmerkenBaanWerknemerBedrijf", "BedrijfstakkenBranchesSBI2008", "Perioden", "PerBaanPerWeekExclusiefOverwerk_11", "Jaar"]]
+
+    return df_werkuren
+    
 
 
