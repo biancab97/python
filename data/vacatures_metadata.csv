@@ -1,0 +1,778 @@
+﻿"TableInfos"
+"ID";"Title";"ShortTitle";"Identifier";"Summary";"Modified";"ReasonDelivery";"ExplanatoryText";"Language";"Catalog";"Frequency";"Period";"ShortDescription";"Description";"DefaultPresentation";"DefaultSelection";"GraphTypes";"OutputStatus";"Source";"MetaDataModified";"SearchPriority"
+"0";"Vacatures; SBI 2008; naar economische activiteit en bedrijfsgrootte";"Vacatures; SBI 2008; totaal";"80472ned";"Openstaande, ontstane en vervulde vacatures
+naar economische activiteit en bedrijfsgrootte";"2023-08-16T02:00:00";"Actualisering";"";"nl";"CBS";"Perkwartaal";"1997 -2018, kw I 1997 - kw II 2023 ";"
+Deze tabel bevat het aantal vacatures bij particuliere bedrijven en de overheid. Het betreft openstaande, ontstane en vervulde vacatures. 
+De gegevens over vacatures zijn gedetailleerd naar:
+- economische activiteit volgens de Standaardbedrijfsindeling (SBI) 2008;
+- bedrijfsgrootte;
+- kwartaal en jaar. 
+
+Gegevens beschikbaar vanaf: 1997 1e kwartaal
+
+Status van de cijfers:
+De cijfers in deze tabel zijn definitief.
+
+Wijzigingen per 16 augustus 2023:
+Toegevoegd zijn kwartaalcijfers van het tweede kwartaal van 2023.
+
+Wanneer komen er nieuwe cijfers?
+Cijfers over het derde kwartaal van 2023 worden in november 2023 gepubliceerd.
+";"INHOUDSOPGAVE
+
+1. Toelichting
+2. Definities en verklaring van symbolen
+3. Koppelingen naar relevante tabellen en artikelen
+4. Bronnen en methoden
+5. Meer informatie
+
+1. TOELICHTING
+
+Deze tabel bevat het aantal vacatures bij particuliere bedrijven en de overheid. Het betreft openstaande, ontstane en vervulde vacatures. 
+De gegevens over vacatures zijn gedetailleerd naar:
+- economische activiteit volgens de Standaardbedrijfsindeling (SBI) 2008;
+- bedrijfsgrootte;
+- kwartaal en jaar. 
+
+Gegevens beschikbaar vanaf: 1997 1e kwartaal
+
+Status van de cijfers:
+De cijfers in deze tabel zijn definitief.
+
+Wijzigingen per 16 augustus 2023:
+Toegevoegd zijn kwartaalcijfers van het tweede kwartaal van 2023.
+
+Wanneer komen er nieuwe cijfers?
+Cijfers over het derde kwartaal van 2023 worden in november 2023 gepubliceerd.
+
+2. DEFINITIES EN VERKLARING VAN SYMBOLEN
+
+Onder een vacature wordt verstaan een arbeidsplaats waarvoor buiten een onderneming of instelling personeel wordt gezocht dat onmiddellijk of zo spoedig mogelijk geplaatst kan worden. 
+Tot de vacatures worden ook gerekend: 
+- Vacatures waarvoor zich reeds sollicitanten hebben gemeld. Ook wanneer al gesprekken worden gevoerd met deze sollicitanten.
+- Vacatures waarvoor de sollicitatieprocedure zoveel tijd zal kosten dat de feitelijke indiensttreding niet op korte termijn valt te verwachten.
+- Vacatures waarvoor uitzendkrachten of ander tijdelijk personeel wordt gezocht.
+- Open plaatsen voor leerlingen en personen in opleiding, mits het daarbij gaat om een arbeidsovereenkomst (dus geen onbetaalde stageplaatsen).
+
+Onderscheid wordt gemaakt tussen openstaande, ontstane en vervulde vacatures. Openstaande vacatures zijn vacatures waar nog geen personeel voor is gevonden. Ontstane vacatures zijn vacatures die tijdens de verslagperiode zijn ontstaan. Vervulde vacatures zijn vacatures die tijdens de verslagperiode zijn vervuld. De vacatures die tijdens de verslagperiode zijn vervallen zonder dat zij zijn vervuld worden ook bij de vervulde vacatures gevoegd. 
+Bij de ontstane en vervulde vacatures worden ook de vacatures gerekend die in het verslagkwartaal zowel zijn ontstaan als inmiddels weer zijn vervuld. 
+
+SBI 2008
+Bedrijven worden getypeerd naar economische activiteit volgens de SBI 2008.
+De economische activiteit is de verzameling van werkzaamheden, gericht op de productie van goederen en diensten. Het gaat hierbij niet alleen om activiteiten van het bedrijfsleven, maar ook om activiteiten van niet op winst gerichte instellingen en de overheid.
+In deze tabel zijn de volgende SBI-niveaus onderscheiden: 
+Bedrijfstak en bedrijfsklasse.
+
+Bedrijfsgrootte
+De bedrijfsgrootte is gebaseerd op het aantal werkzame personen.
+De bron voor bedrijfsgrootte is het Algemeen Bedrijven Register (ABR). In de loop van 2006 is het CBS overgaan op een vernieuwd ABR. In het vernieuwde ABR is de bedrijfsgrootte op een andere manier afgeleid dan in het oude ABR. De bedrijfsgrootte volgens het oude ABR wordt hier 'bedrijfsgrootte voor trendbreuk' genoemd, de bedrijfsgrootte volgens het vernieuwde ABR wordt 'bedrijfsgrootte na trendbreuk' genoemd. 
+
+Bedrijfsgrootte voor trendbreuk
+De bedrijfsgrootte is afgeleid van het aantal werkzame personen (werknemers). Belangrijke bronnen voor dit gegeven zijn het Handelsregister(HR) en de Uitvoeringsinstellingen Werknemersverzekeringen (UWV).
+
+Bedrijfsgrootte na trendbreuk
+Deze nieuwe bedrijfsgrootte wordt afgeleid van het aantal werkenden in een bedrijf, ongeacht of zij in loondienst zijn of anderszins betaalde arbeid verrichten. Ook voor deze indeling wordt gebruikgemaakt van gegevens van het Handelsregister (waaronder de rechtsvorm van de bedrijven) en de Uitvoeringsinstelling Werknemersverzekeringen - UWV.
+ 
+Verklaring van symbolen:
+
+niets (blanco): het cijfer kan op logische gronden niet voorkomen
+. : het cijfer is onbekend, onvoldoende betrouwbaar of geheim
+*: voorlopige cijfers
+**: nader voorlopige cijfers
+
+3. KOPPELINGEN NAAR RELEVANTE TABELLEN EN ARTIKELEN
+
+Relevante tabellen:
+
+Gegevens over vacatures zijn te vinden in de volgende Statline tabellen: 
+<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/37518TOT'>Vacatures; bedrijfskenmerken, SBI'93, 1997 - 2009</a>
+<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/80473ned'>Vacatures;SBI2008;particuliere bedrijven</a>
+<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/80857ned'>Vacatures (openstaande, ontstane en vervulde); overheid en onderwijs</a>
+<a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/80474ned'>Vacatures; seizoengecorrigeerd, SBI2008</a>
+
+4. BRONNEN EN METHODEN
+
+De beschrijving van het onderzoek is te vinden bij <a href='https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/korte-onderzoeksbeschrijvingen/vacatures-kwartaalenquete'>Vacatures, kwartaalenquête</a>.
+
+5. MEER INFORMATIE
+
+<a href='https://www.cbs.nl/nl-nl/over-ons/contact/infoservice'>Infoservice</a>
+
+Copyright (c) Centraal Bureau voor de Statistiek, Den Haag/Heerlen 
+Verveelvoudiging is toegestaan, mits het CBS als bron wordt vermeld.";"ts=1691668473552&graphtype=Table&r=Perioden&k=Topics,Bedrijfskenmerken";"$filter=((Bedrijfskenmerken eq 'T001081') or (Bedrijfskenmerken eq 'WP19074') or (Bedrijfskenmerken eq 'WP19091') or (Bedrijfskenmerken eq 'WP19098')) and ((Perioden eq '2019KW03') or (Perioden eq '2019KW04') or (Perioden eq '2019JJ00') or (Perioden eq '2020KW01') or (Perioden eq '2020KW02') or (Perioden eq '2020KW03') or (Perioden eq '2020KW04') or (Perioden eq '2020JJ00') or (Perioden eq '2021KW01') or (Perioden eq '2021KW02') or (Perioden eq '2021KW03') or (Perioden eq '2021KW04') or (Perioden eq '2021JJ00') or (Perioden eq '2022KW01') or (Perioden eq '2022KW02') or (Perioden eq '2022KW03') or (Perioden eq '2022KW04') or (Perioden eq '2022JJ00') or (Perioden eq '2023KW01') or (Perioden eq '2023KW02'))";"Table,Bar,Line";"Regulier";"CBS";"2023-08-16T02:00:00";"3"
+"DataProperties"
+ID;Position;ParentID;Type;Key;Title;Description;ReleasePolicy;Datatype;Unit;Decimals;Default
+"0";"0";;"Dimension";"Bedrijfskenmerken";"Bedrijfskenmerken";;;;;;
+"1";"1";;"TimeDimension";"Perioden";"Perioden";"";"false";;;;
+"2";"2";;"Topic";"OpenstaandeVacatures_1";"Openstaande vacatures";"Het aantal openstaande vacatures per kwartaal heeft betrekking op de vacatures bij particuliere bedrijven en overheidssectoren aan het einde van het kwartaal.
+Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+Vacatures, jaargemiddelde  =       Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";;"Double";"x 1 000";"1";"Missing"
+"3";"3";;"Topic";"OntstaneVacatures_2";"Ontstane vacatures";"Het aantal ontstane vacatures per kwartaal heeft betrekking op de vacatures bij particuliere bedrijven en overheidssectoren die tijdens het verslagkwartaal zijn ontstaan.
+Bij de ontstane en vervulde vacatures worden ook gerekend de vacatures die in het verslagkwartaal zowel ontstaan als inmiddels weer vervuld zijn.
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen. Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde.";;"Double";"x 1 000";"0";"Missing"
+"4";"4";;"Topic";"VervuldeVacatures_3";"Vervulde vacatures";"Vervulde vacatures incl. vervallen vacatures.
+Het aantal vervulde vacatures per kwartaal heeft betrekking op de vacatures bij particuliere bedrijven en overheidssectoren die tijdens het verslagkwartaal zijn vervuld.
+Bij de ontstane en vervulde vacatures worden ook gerekend de vacatures die in het verslagkwartaal zowel ontstaan als inmiddels weer vervuld zijn.
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen. Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde.";;"Double";"x 1 000";"0";"Missing"
+"Bedrijfskenmerken"
+Key;Title;Description
+"T001081";"A-U Alle economische activiteiten";"Alle economische activiteiten 
+Deze categorie is een samentelling van categorieën: 
+A Landbouw, bosbouw en visserij 
+B Winning van delfstoffen 
+C Industrie 
+D Productie en distributie van en handel in elektriciteit, aardgas, stoom en gekoelde lucht 
+E Winning en distributie van water; afval- en afvalwaterbeheer en sanering 
+F Bouwnijverheid 
+G Groot- en detailhandel; reparatie van auto's 
+H Vervoer en opslag 
+I Logies-, maaltijd- en drankverstrekking 
+J Informatie en communicatie 
+K Financiële instellingen 
+L Verhuur van en handel in onroerend goed 
+M Advisering, onderzoek en overige specialistische zakelijke dienstverlening 
+N Verhuur van roerende goederen en overige zakelijke dienstverlening 
+O Openbaar bestuur, overheidsdiensten en verplichte sociale verzekeringen 
+P Onderwijs 
+Q Gezondheids- en welzijnszorg 
+R Cultuur, sport en recreatie 
+S Overige dienstverlening 
+T Huishoudens als werkgever; niet-gedifferentieerde productie van goederen en diensten door huishoudens voor eigen gebruik 
+U Extraterritoriale organisaties en lichamen"
+"301000 ";"A Landbouw, bosbouw en visserij";"Landbouw, bosbouw en visserij 
+Deze sectie omvat: 
+- de exploitatie van natuurlijke plantaardige en dierlijke hulpbronnen: 
+ w.o. de akkerbouw, veeteelt en de productie van overige planten en dieren op een agrarisch bedrijf of in het natuurlijke leefgebied; 
+ w.o. bosbouw, houtteelt en jacht; 
+ w.o. specifieke loondiensten met betrekking tot het productieproces landbouw, jacht en bosbouw worden eveneens in deze sectie ingedeeld; 
+ w.o. visserij: de vangst of het kweken van vis, schaaldieren en weekdieren."
+"305700 ";"B Delfstoffenwinning";"Winning van delfstoffen 
+Deze sectie omvat: 
+- de winning van in de natuur voorkomende mineralen in vaste vorm (steenkool, turf en erts), in vloeibare vorm (aardolie) of in de vorm van een gas (aardgas). Winning vindt plaats door middel van ondergrondse mijnbouw, dagbouw of boringen. 
+Deze sectie omvat voorts bijkomende bewerkingen die voor het vervoer en de afzet van de minerale producten noodzakelijk zijn, bijvoorbeeld het vergruizen, malen, wassen, drogen, sorteren of concentreren van ertsen, het vloeibaar maken van aardgas en het briketteren van vaste brandstoffen. 
+Deze werkzaamheden worden vaak door de eenheden die de delfstoffen winnen zelf uitgeoefend en/of door andere eenheden in de buurt van de winplaats. 
+Deze sectie omvat ook: 
+- de vervaardiging van steenkool- en bruinkoolbriketten, het sinteren van ertsen; 
+- het vergruizen, malen of op andere wijze behandelen van bepaalde soorten aarde, steen en mineralen. 
+Deze sectie omvat niet: 
+- de verwerking van delfstoffen (sectie C); 
+- de productie aan de bron van natuurlijk bron- of mineraalwater (1107); 
+- de winning, zuivering en distributie van water (3600)."
+"300002 ";"B-E Nijverheid (geen bouw) en energie";"Nijverheid (geen bouw) en energie 
+Deze categorie is een samentelling van categorieën: 
+B Winning van delfstoffen 
+C Industrie 
+D Productie en distributie van en handel in elektriciteit, aardgas, stoom en gekoelde lucht 
+E Winning en distributie van water; afval- en afvalwaterbeheer en sanering"
+"300003 ";"B-F Nijverheid en energie";"Nijverheid en energie 
+Deze categorie is een samentelling van categorieën: 
+B Winning van delfstoffen 
+C Industrie 
+D Productie en distributie van en handel in elektriciteit, aardgas, stoom en gekoelde lucht 
+E Winning en distributie van water; afval- en afvalwaterbeheer en sanering 
+F Bouwnijverheid"
+"307500 ";"C Industrie";"Industrie 
+Deze sectie omvat: 
+- de mechanische, fysische of chemische verwerking van materialen, stoffen of onderdelen tot nieuwe producten. De verwerkte materialen, stoffen of onderdelen zijn grondstoffen uit de landbouw, bosbouw, visserij en mijnbouw, alsmede (half)fabricaten uit de industrie. 
+- reparatie en installatie van machines, apparatuur en andere benodigdheden voor bedrijven (geen consumentengoederen). 
+Bij de eenheden in deze sectie gaat het vaak om fabrieken waar gewoonlijk machines en apparaten worden gebruikt. Eenheden waar materialen of stoffen met de hand of in de eigen woning tot nieuwe producten worden verwerkt en die producten op de plaats waar deze zijn gemaakt, zelf verkopen, zoals bakkerijen en kleermakerijen, vallen echter ook onder deze sectie. 
+Industriële eenheden kunnen materialen zelf verwerken of dit aan andere eenheden uitbesteden. In beide gevallen valt dit onder de sectie Industrie. 
+Reparatie van huishoudelijke apparaten en consumptiegoederen wordt ingedeeld in afdeling 95; 
+de reparatie van (bedrijfs-)auto's en motoren in afdeling 45: de autobranche. 
+De vervaardiging van specifieke componenten en onderdelen, toebehoren en hulpstukken voor machines en apparaten wordt gewoonlijk ingedeeld in dezelfde klasse als de vervaardiging van de desbetreffende machines en apparaten. 
+De vervaardiging van niet-specifieke componenten en onderdelen voor machines en apparatuur, zoals motoren, zuigers, elektromotoren, 
+elektra-installatiemateriaal, kleppen, kogellagers, rollagers, worden in de passende klasse van de sectie industrie ingedeeld. 
+De sectie omvat niet: 
+- activiteiten die niet leiden tot een nieuw product, maar tot een gewijzigde versie van hetzelfde product: 
+* het opsplitsen van partijen stukgoederen in kleinere partijen, inclusief het verpakken, herverpakken; 
+* het bottelen van producten als alcoholhoudende dranken of chemicaliën; 
+* de montage van computers volgens de specifieke wensen van een klant; 
+* het mengen van verf; 
+Deze activiteiten worden ingedeeld in sectie G (groothandel en detailhandel)."
+"307610 ";"10-12 Voedings-, genotmiddelenindustrie";"Vervaardiging van voedingsmiddelen, dranken en tabaksproducten 
+Deze categorie is een samentelling van categorieën: 
+10 Vervaardiging van voedingsmiddelen 
+11 Vervaardiging van dranken 
+12 Vervaardiging van tabaksproducten"
+"328105 ";"24-25 Basismetaal, metaalprod.-industrie";"Vervaardiging van metalen in primaire vorm en van metaalproducten (geen machines en apparaten) 
+Deze categorie is een samentelling van categorieën: 
+24 Vervaardiging van metalen in primaire vorm 
+25 Vervaardiging van producten van metaal (geen machines en apparaten)"
+"339205 ";"29-30 Transportmiddelenindustrie";"Vervaardiging van transportmiddelen 
+Deze categorie is een samentelling van categorieën: 
+29 Vervaardiging van auto's, aanhangwagens en opleggers 
+30 Vervaardiging van overige transportmiddelen"
+"300023 ";"31-33 Overige industrie en reparatie";"Vervaardiging van meubels en overige goederen; reparatie en installatie van machines en apparaten 
+Deze categorie is een samentelling van categorieën: 
+31 Vervaardiging van meubels 
+32 Vervaardiging van overige goederen 
+33 Reparatie en installatie van machines en apparaten"
+"346600 ";"D Energievoorziening";"Productie en distributie van en handel in elektriciteit, aardgas, stoom en gekoelde lucht 
+Deze sectie omvat: 
+- productie en distributie van en handel in elektriciteit, aardgas en warm water."
+"348000 ";"E Waterbedrijven en afvalbeheer";"Winning en distributie van water; afval- en afvalwaterbeheer en sanering 
+Deze sectie omvat: 
+- winning en distributie van water; 
+- afvalbehandeling en recycling."
+"350000 ";"F Bouwnijverheid";"Bouwnijverheid 
+Deze sectie omvat: 
+- algemene en gespecialiseerde bouwkundige en civieltechnische werken, de bouwinstallatie en de afwerking van gebouwen. 
+Zij omvat ook nieuwbouw, reparatie, aan- en verbouwwerkzaamheden, het optrekken van geprefabriceerde gebouwen of constructies ter plaatse en van tijdelijke bouwwerken. 
+Onder algemene bouw valt de bouw van woningen, kantoren, winkels en andere vormen van burgerlijke- en utiliteitsbouw enzovoort of de bouw of aanleg van zware constructies als autowegen, straten, bruggen, tunnels, spoorwegen, vliegvelden, havens en andere waterbouwkundige projecten, irrigatiesystemen, rioleringen, industriële installaties, pijpleidingen en elektriciteitsleidingen, sportvoorzieningen enzovoort. Deze werkzaamheden kunnen voor eigen rekening of voor een vast bedrag of op contractbasis worden uitgevoerd. Een deel van de werkzaamheden of soms zelfs alle uitvoerende werkzaamheden kunnen worden uitbesteed aan onderaannemers. 
+Gespecialiseerde bouw omvat de bouw of aanleg van een gedeelte van bouwwerken en van civieltechnische werken of de hiervoor vereiste voorbereidende werkzaamheden. Er is gewoonlijk sprake van gespecialiseerde werkzaamheden ten behoeve van diverse bouwwerken, waarvoor specifieke ervaring of een speciale uitrusting nodig is. Het heien, leggen van funderingen, boren van waterputten, de cascobouw, het storten van beton, metselen, zetten van natuursteen, de bouw van steigers, dakbedekking enzovoort worden hiertoe gerekend. Gespecialiseerde bouwkundige werkzaamheden worden meestal aan onderaannemers uitbesteed, maar vooral reparaties worden in de bouw rechtstreeks voor de eigenaar van het onroerend goed uitgevoerd. 
+De bouwinstallatie omvat de installatie van alle voorzieningen waardoor een bouwwerk als zodanig zijn functie kan vervullen. Deze werkzaamheden worden meestal op de bouwplaats zelf verricht, hoewel bepaalde gedeelten ervan in een werkplaats kunnen worden uitgevoerd. Inbegrepen zijn loodgieterswerk, de installatie van verwarmings- en klimaatregelingssystemen, alarmsystemen en andere elektrische apparatuur, sprinklerinstallaties, liften en roltrappen enzovoort. Ook vallen hieronder isolatiewerkzaamheden (vochtwering, warmte- en geluidsisolatie), het aanbrengen van metalen beplating, de installatie van commerciële koelapparatuur, verlichtings- en signaleringssystemen voor wegen, spoorwegen, luchthavens, havens enzovoort. Het uitvoeren van reparaties in verband met deze activiteiten is ook inbegrepen. 
+De afwerking van gebouwen omvat werkzaamheden die zijn gericht op de afwerking of voltooiing van een bouwwerk, zoals glaszetten, stukadoorswerk, schilderen, sauzen, het aanbrengen van vloer- of wandtegels of van andere bekleding of bedekking zoals parket, tapijt, behang enzovoort, schuren van vloeren, aftimmeren, geluidstechnische werkzaamheden enzovoort. Het uitvoeren van reparaties in verband met deze activiteiten is ook inbegrepen. 
+Deze sectie omvat niet: 
+- de bouw of installatie van industriële apparatuur en machines (bijvoorbeeld de installatie van industriële ovens, turbines enzovoort) 
+(sectie C); 
+- het optrekken van volledige geprefabriceerde gebouwen of bouwwerken van zelf vervaardigde onderdelen wordt ingedeeld bij de toepasselijke rubriek van de sectie Industrie, afhankelijk van het materiaal waaruit deze voornamelijk bestaan. Indien dit echter beton is, wordt deze activiteit in deze afdeling ingedeeld."
+"354200 ";"G Handel";"Groot- en detailhandel; reparatie van auto's 
+Deze sectie omvat: 
+- de groot- en detailhandel (verkoop zonder aanbrengen van veranderingen) in alle soorten goederen en de diensten die bij de verkoop van goederen worden verleend; 
+- tussenhandel/handelsbemiddeling; 
+- reparatie van auto's en motoren. 
+De verkoop zonder bewerking omvat de in de handel gebruikelijke handelingen, bijvoorbeeld sorteren, samenvoegen en combineren van goederen, mengen (versnijden) van goederen (bijvoorbeeld wijn of zand), bottelen (met of zonder reiniging van de fles vooraf), verpakken, opsplitsen en anders verpakken van partijen stukgoederen voor distributie in kleinere hoeveelheden, opslag (al dan niet bevroren of gekoeld), schoonmaken en drogen van landbouwproducten, snijden van houtvezel- of metalen platen voor eigen rekening. 
+Groothandel is de wederverkoop (verkoop zonder aanbrengen van veranderingen) van nieuwe en gebruikte goederen aan de detailhandel, aan industriële en andere bedrijfsmatige gebruikers, of aan andere groothandelaren, alsmede de handelsbemiddeling bij de aankoop van goederen voor of de verkoop van goederen aan dergelijke personen of bedrijven. De belangrijkste soort van groothandel is de groothandel in goederen, dat wil zeggen groothandelaren die goederen verkopen die zij in eigendom hebben zoals grossiers, dealers, exporteurs, importeurs en coöperatieve inkooporganisaties, verkooporganisaties en verkoopkantoren (detailhandelsbedrijven uitgezonderd) van industriële ondernemingen, die tot taak hebben de producten ervan op de markt te brengen. 
+Tussenhandel/handelsbemiddeling is het samenbrengen van koper en verkoper of het uitvoeren van transacties voor rekening van derden. Inbegrepen zijn makelaars op goederenbeurzen, commissionairs, en andere op commissiebasis werkzame tussenpersonen. 
+Detailhandel is de wederverkoop (verkoop zonder aanbrengen van veranderingen) van nieuwe en gebruikte goederen hoofdzakelijk aan het publiek voor persoonlijk of huishoudelijk ge- of verbruik, op de markt of door winkels, warenhuizen, postorderbedrijven, straathandelaren, consumentencoöperaties, veilinghuizen enzovoort. De meeste detailhandelaren zijn eigenaar van de goederen die zij verkopen, maar sommigen werken als tussenpersoon voor een opdrachtgever en verkopen in consignatie dan wel op commissiebasis."
+"300006 ";"G-I Handel, vervoer en horeca";"Handel, vervoer en horeca 
+Deze categorie is een samentelling van categorieën: 
+G Groot- en detailhandel; reparatie van auto's 
+H Vervoer en opslag 
+I Logies-, maaltijd- en drankverstrekking"
+"300007 ";"G-N Commerciële dienstverlening";"Commerciële dienstverlening 
+Deze categorie is een samentelling van categorieën: 
+G Groot- en detailhandel; reparatie van auto's 
+H Vervoer en opslag 
+I Logies-, maaltijd- en drankverstrekking 
+J Informatie en communicatie 
+K Financiële instellingen 
+L Verhuur van en handel in onroerend goed 
+M Advisering, onderzoek en overige specialistische zakelijke dienstverlening 
+N Verhuur van roerende goederen en overige zakelijke dienstverlening"
+"354300 ";"45 Autohandel en -reparatie";"Handel in en reparatie van auto's, motorfietsen en aanhangers"
+"356900 ";"46 Groothandel en handelsbemiddeling";"Groothandel en handelsbemiddeling (niet in auto's en motorfietsen) 
+Deze afdeling omvat de groepen: 
+461 Handelsbemiddeling 
+462 Groothandel in landbouwproducten en levende dieren 
+463 Groothandel in voedings- en genotmiddelen 
+464 Groothandel in consumentenartikelen 
+465 Groothandel in ICT-apparatuur 
+466 Groothandel in machines en benodigdheden voor industrie en handel 
+467 Overige gespecialiseerde groothandel 
+469 Niet-gespecialiseerde groothandel"
+"371600 ";"47 Detailhandel (niet in auto’s)";"Detailhandel (niet in auto's)
+Tot de detailhandel wordt gerekend:
+De verkoop van niet zelfvervaardigde goederen, zowel nieuw als tweedehands, aan consumenten.
+De volgende distributievormen worden onderscheiden:
+- winkelverkoop (471 - 477);
+- markthandel (478);
+- verkoop via internet, thuiswinkels, postorderverkoop, telefonische verkoop, verkoop via radio en televisie (479);
+- colportage, verkoop via huisparty's (4799.1);
+- straathandel (4799.2);
+- automatenverkoop, verkoop vanuit woonhuis, magazijn, werkplaats (4799.9).
+Tot de detailhandel wordt ook gerekend de tussenpersonen/bemiddeling in de detailhandel (4799.9, internetveilingen: 4791).
+
+Tot de detailhandel in winkel wordt gerekend:
+Verkoop van voor aflevering gereed zijnde goederen (die naar aard en vorm niet bedoeld zijn om ter plaatse te worden geconsumeerd) aan elke zich aandienende finale consument, gekoppeld aan de expositie van een assortiment, in of vanuit een ommuurde en overspannen ruimte en waarbij deze ruimte zelf of het complex waarin deze ruimte is opgenomen voor het publiek toegankelijk moet zijn.
+
+Tot de detailhandel in winkel wordt ook gerekend:
+- een boekenkiosk binnen de stationshal;
+- een fruitkraam in de hal van een ziekenhuis;
+- een noodwinkel;
+- een /""/shop in de shop/""/.
+
+Tot de detailhandel in winkel wordt niet gerekend:
+- de verkoop vanuit markthallen via al dan niet verplaatsbare kramen; wordt tot de markthandel gerekend;
+- de verkoop op beurzen en tentoonstellingen; wordt tot de overige vormen van detailhandel gerekend;
+- de verkoop van auto's, motoren en motorbrandstoffen; wordt tot afdeling 50 gerekend;
+- de verkoop vanuit woonhuis (met geen voor het publiek toegankelijke ruimte), vanuit magazijn of werkplaats; deze verkoop aan particulieren wordt tot de overige vormen van detailhandel gerekend."
+"371700 ";"471 Supermarkten en warenhuizen";"Supermarkten, warenhuizen en dergelijke winkels met een algemeen assortiment"
+"372200 ";"472 Winkels in voedingsmiddelen";"Gespecialiseerde winkels in voedings- en genotmiddelen 
+Deze groep omvat de klassen: 
+4721 Winkels in aardappelen, groenten en fruit 
+4722 Winkels in vlees en vleeswaren, wild en gevogelte 
+4723 Winkels in vis en schaal- en weekdieren 
+4724 Winkels in brood, banket chocolade en suikerwerk 
+4725 Winkels in dranken (geen zuivel) 
+4726 Winkels in tabaksproducten en rokersbenodigdheden 
+4729 Winkels gespecialiseerd in overige voedings- en genotmiddelen"
+"383100 ";"H Vervoer en opslag";"Vervoer en opslag 
+Deze sectie omvat: 
+- het vervoer van personen of goederen, al dan niet volgens een dienstregeling, per spoor, via een pijpleiding, over de weg, over water of door de lucht; 
+- de ondersteunende activiteiten als terminal- en parkeerfaciliteiten, vrachtbehandeling, opslag enz.; 
+- de posterijen; 
+- de verhuur van transportmiddelen met bestuurder of bedienend personeel. 
+Deze sectie omvat niet: 
+- het onderhoud en de reparatie van auto's (45)."
+"383200 ";"49 Vervoer over land";"Vervoer over land 
+Deze afdeling omvat: 
+- personen- en goederenvervoer over de weg en per spoor. 
+Deze klasse omvat niet: 
+- exploitatie van toeristische spoorlijnen (93.21.1)."
+"386800 ";"52 Opslag, dienstverlening voor vervoer";"Opslag en dienstverlening voor vervoer"
+"388400 ";"53 Post en koeriers";"Post en koeriers 
+Deze afdeling omvat: 
+- nationale en lokale postdiensten; 
+- koeriersbedrijven."
+"389100 ";"I Horeca";"Logies-, maaltijd- en drankverstrekking 
+Deze sectie omvat: 
+- het aan gasten verschaffen van logies en/of bereide maaltijden, snacks en dranken voor onmiddellijke consumptie. 
+De verschillende activiteiten in sectie I overlappen elkaar in zekere mate, omdat bijvoorbeeld de verkoop van dranken een activiteit op zich is, maar ook deel uitmaakt van de activiteiten van een restaurant (waar bij de 
+maaltijden dranken worden verstrekt) en dan met de verkoop van maaltijden bij 56.1 (Restaurants) wordt ingedeeld. Evenzo vormt de exploitatie van een restaurant een aparte activiteit, maar kan zij ook deel uitmaken van een bedrijf dat logies verschaft. 
+Logiesverschaffende eenheden bieden reizigers, vakantiegangers en anderen accommodatie voor kortstondig verblijf (korter dan 3 maanden) aan. Er zijn vele verschillende eenheden. Sommige verschaffen alleen logies, terwijl andere naast logies ook maaltijden en recreatieve faciliteiten aanbieden. Het soort aanvullende dienstverlening kan van eenheid tot eenheid verschillen. 
+Restaurants verstrekken volledige, voor onmiddellijke consumptie geschikte maaltijden, ongeacht of het traditionele restaurants, zelfbedienings- of afhaalrestaurants, dan wel permanente of tijdelijke viskramen en 
+dergelijke met of zonder zitplaatsen zijn. Bepalend is het feit dat er voor onmiddellijke consumptie geschikte maaltijden worden aangeboden, niet het soort gelegenheid dat deze maaltijden verstrekt. 
+Deze sectie omvat niet: 
+- de productie van maaltijden niet voor onmiddellijke consumptie geschikt of maaltijden of bereid voedsel dat niet als maaltijd wordt beschouwd (SBI 10: voedingsmiddelenindustrie); 
+- de verkoop van niet zelf vervaardigd voedsel dat niet als maaltijd wordt beschouwd of van niet voor onmiddellijke consumptie geschikte maaltijden (SBI 46 groothandel of SBI 47 detailhandel afhankelijk van de afnemerscategorie)."
+"391600 ";"J Informatie en communicatie";"Informatie en communicatie 
+Deze sectie omvat: 
+- de productie en distributie van informatie, de voorziening van de infrastructuur om die informatie door te geven, alsmede activiteiten op het gebied van data- en communicatie-informatietechnologie en het bewerken van data en andere informatie. 
+De belangrijkste activiteiten die hier ingedeeld worden zijn het uitgeven (afdeling 58, incl. het uitgeven van software), productie van films en geluidsopnamen (afdeling 59) radio en TV (afdeling 60), telecommunicatie (afdeling 61), informatietechnologie (afdeling 62) en andere dienstverlening op het gebied van informatie (afdeling 63). Uitgeven omvat ook het verkrijgen van de copyrights voor de content (informatieproducten) en het toegankelijk maken hiervan voor een breed publiek. Alle mogelijke vormen van uitgeven vallen onder deze sectie (in drukvorm, elektronisch of audio, op het internet, als multimediaproduct enzovoorts)."
+"391705 ";"58-60 Uitgeverijen, film,radio en t.v.";"Uitgeverijen, film, radio en televisie 
+Deze categorie is een samentelling van categorieën: 
+58 Uitgeverijen 
+59 Productie en distributie van films en televisieprogramma's; maken en uitgeven van geluidsopnamen 
+60 Verzorgen en uitzenden van radio- en televisieprogramma's"
+"396300 ";"K Financiële dienstverlening";"Financiële instellingen 
+Deze sectie omvat: 
+- financiële instellingen; 
+- verzekeringswezen en pensioenfondsen (geen verplichte sociale verzekeringen); 
+- financiële beurzen, effectenmakelaars, assurantietussenpersonen, administratiekantoren voor aandelen, waarborgfondsen en dergelijke."
+"396400 ";"64 Bankwezen";"Financiële instellingen (geen verzekeringen en pensioenfondsen)"
+"398700 ";"65 Verzekeraars en pensioenfondsen";"Verzekeringen en pensioenfondsen (geen verplichte sociale verzekeringen)"
+"400200 ";"66 Overige financiële dienstverlening";"Overige financiële dienstverlening"
+"402000 ";"L Verhuur en handel van onroerend goed";"Verhuur van en handel in onroerend goed 
+Deze sectie omvat: 
+- verhuur van onroerend goed; 
+- bemiddeling in en beheer van onroerend goed."
+"300010 ";"M-N Zakelijke dienstverlening";"Zakelijke dienstverlening 
+Deze categorie is een samentelling van categorieën: 
+M Advisering, onderzoek en overige specialistische zakelijke dienstverlening 
+N Verhuur van roerende goederen en overige zakelijke dienstverlening"
+"403300 ";"M Specialistische zakelijke diensten";"Advisering, onderzoek en overige specialistische zakelijke dienstverlening 
+Deze sectie omvat: 
+- gespecialiseerde professionele wetenschappelijke en technische activiteiten. Deze activiteiten vereisen een hoge opleiding en stellen specifieke kennis ter beschikking."
+"403405 ";"69-71 Management- en technisch advies";"Juridische en managementadvisering, accountancy, architecten en ingenieurs 
+Deze categorie is een samentelling van categorieën: 
+69 Rechtskundige dienstverlening, accountancy, belastingadvisering en administratie 
+70 Holdings (geen financiële), concerndiensten binnen eigen concern en managementadvisering 
+71 Architecten en ingenieurs"
+"406800 ";"72 Research";"Speur- en ontwikkelingswerk"
+"408105 ";"73-75 Reclame, design, overige diensten";"Overige specialistische zakelijke dienstverlening 
+Deze categorie is een samentelling van categorieën: 
+73 Reclame en marktonderzoek 
+74 Industrieel ontwerp en vormgeving, fotografie, vertaling en overige consultancy 
+75 Veterinaire dienstverlening"
+"410200 ";"N Verhuur en overige zakelijke diensten";"Verhuur van roerende goederen en overige zakelijke dienstverlening 
+Deze sectie omvat: 
+- activiteiten die zakelijke gebruikers ondersteunen bij de bedrijfsvoering. Het verschil van deze activiteiten met die uit sectie M is dat de activiteiten uit deze sectie niet primair gericht zijn op het overbrengen van expertise en kennis."
+"413200 ";"78201 Uitzendbureaus";"Uitzendbureaus 
+Deze klasse omvat: 
+- het bemiddelen bij het tijdelijk plaatsen van personen, die tijdens de plaatsing door de uitzendorganisatie worden betaald. 
+Deze klasse omvat niet: 
+- bedrijfsverzorgingsdiensten voor akker- en tuinbouwbedrijven (01.61); 
+- bedrijfsverzorgingsdiensten voor veeteeltbedrijven (01.62); 
+- uitlenen van personeel via arbeidspools opgericht door en bestemd voor de aangesloten leden (78.20.2); 
+- het tijdelijk plaatsen (detacheren) van eigen (loonlijst)personeel bij andere bedrijven waarbij de gezagsverhouding i.c. verantwoording over de te verrichten werkzaamheden bij het ontvangende bedrijf ligt (78.20.2); 
+- het detacheren van personeel, m.n. langdurig werkelozen en laaggeschoolde jongeren voor werkgelegenheidsprojecten die betrekking hebben op gesubsidieerde banen (78.20.3); 
+- het tijdelijk plaatsen (detacheren) van eigen (loonlijst)personeel bij andere bedrijven waarbij de gezagsverhouding i.c. verantwoording over de te verrichten werkzaamheden niet bij het ontvangende bedrijf ligt wordt ingedeeld volgens de activiteit die het personeel uitoefent."
+"415000 ";"81 Schoonmaakbedrijven, hoveniers e.d.";"Facility management, reiniging en landschapsverzorging"
+"417400 ";"O Openbaar bestuur en overheidsdiensten";"Openbaar bestuur, overheidsdiensten en verplichte sociale verzekeringen 
+Deze sectie omvat: 
+- eenheden die deel uitmaken van de lagere of centrale overheid en die tot een goede werking van het bestuur van de samenleving bijdragen en ook het beheer van de verplichte sociale verzekeringsregelingen; 
+- defensie, justitie, politie, buitenlandse zaken enzovoort; 
+- het algemeen openbaar bestuur (bijvoorbeeld uitvoerende, wetgevende, financiële taken enzovoort op alle bestuursniveaus) en het toezicht op het economische en sociale leven; 
+- provincies en gemeentes; 
+- het beheer van de verplichte socialeverzekeringsregelingen. 
+Activiteiten die elders in de SBI zijn geclassificeerd vallen niet onder afdeling 75, ook al worden zij door overheidinstanties uitgevoerd. Enkele voorbeelden: 
+- het beheer van het onderwijsstelsel (d.w.z. regelgeving, inspecties, onderwijsprogramma's) valt onder deze sectie O, maar het onderwijs zelf valt onder afdeling 85 /""/Onderwijs/""/; 
+- militaire en penitentiaire ziekenhuizen worden ingedeeld bij afdeling 86 /""/Gezondheidszorg/""/; 
+- inzameling en verwerking van afvalwater en afval valt onder afdeling 38 /""/Milieudienstverlening/""/."
+"419000 ";"P Onderwijs";"Onderwijs 
+Deze sectie omvat: 
+- alle vormen van openbaar en particulier onderwijs, op elk niveau en voor elk beroep, zowel mondeling en schriftelijk als via radio en televisie; zowel het onderwijs door de instellingen op de verschillende niveaus van het normale schoolstelsel als volwasseneneducatie, alfabetiseringsprogramma's e.d. 
+Volwasseneneducatie waarvan de inhoud vergelijkbaar is met die van het onderwijs op een specifiek niveau wordt bij dat niveau ingedeeld. Op ieder niveau van het initiële onderwijs omvatten de klassen het speciale onderwijs aan lichamelijk of geestelijk gehandicapte leerlingen. 
+Deze sectie omvat ook: 
+- het overige onderwijs, zoals autorijscholen. 
+Deze sectie omvat niet: 
+- hoofdzakelijk op ontspanning gericht onderwijs, zoals bridge- en golflessen, dansonderwijs (93 of 94)."
+"419200 ";"852 Basisonderwijs en speciaal onderwijs";"Primair en speciaal onderwijs"
+"419700 ";"853 Voortgezet onderwijs";"Voortgezet onderwijs"
+"420700 ";"854 Hoger onderwijs";"Tertiair onderwijs 
+Deze groep omvat: 
+- hoger beroepsonderwijs voor personen van ongeveer 18 jaar en ouder zonder vaste groepsleerkrachten aansluitend aan havo, vwo of middenkaderopleiding; 
+- combinatie van middelbaar beroepsonderwijs met hoger beroepsonderwijs zonder vaste groepsleerkrachten; 
+- hoger onderwijs aan universiteiten voor personen van ongeveer 18 jaar en ouder zonder vaste groepsleerkrachten aansluitend op voorbereidend wetenschappelijk onderwijs; 
+- hoger onderwijs aan overige instellingen voor personen van ongeveer 18 jaar en ouder zonder vaste groepsleerkrachten aansluitend op voorbereidend wetenschappelijk onderwijs. 
+Deze klasse omvat ook: 
+- onderzoekscholen; 
+- masteropleidingen; 
+- postdocopleidingen. 
+Deze klasse omvat niet: 
+- volkshogescholen (85.59.9)."
+"422400 ";"Q Gezondheids- en welzijnszorg";"Gezondheids- en welzijnszorg 
+Deze sectie omvat: 
+- behandeling in algemene en gespecialiseerde ziekenhuizen; 
+- geestelijke gezondheidszorg en verslavingszorg, eventueel in combinatie met overnachting; 
+- behandeling door medische en paramedische praktijken; 
+- ondersteunende activiteiten voor de gezondheidszorg, door bijvoorbeeld laboratoria en ambulancediensten; 
+- verpleging, verzorging of begeleiding met huisvesting door bijvoorbeeld verpleeg- en verzorgingshuizen of via begeleid wonen; 
+- welzijnszorg, zoals thuiszorg, lokaal welzijnswerk en hulp aan gehandicapten en ouderen; 
+- kinderopvang."
+"300013 ";"O-U Niet-commerciële dienstverlening";"Niet-commerciële dienstverlening 
+Deze categorie is een samentelling van categorieën: 
+O Openbaar bestuur, overheidsdiensten en verplichte sociale verzekeringen 
+P Onderwijs 
+Q Gezondheids- en welzijnszorg 
+R Cultuur, sport en recreatie 
+S Overige dienstverlening 
+T Huishoudens als werkgever; niet-gedifferentieerde productie van goederen en diensten door huishoudens voor eigen gebruik 
+U Extraterritoriale organisaties en lichamen"
+"300012 ";"O-Q Overheid en zorg";"Overheid en zorg 
+Deze categorie is een samentelling van categorieën: 
+O Openbaar bestuur, overheidsdiensten en verplichte sociale verzekeringen 
+P Onderwijs 
+Q Gezondheids- en welzijnszorg"
+"422600 ";"861 Ziekenhuizen";"Ziekenhuizen en geestelijke gezondheids- en verslavingszorg met overnachting 
+Deze groep omvat: 
+86.10.1 Universitair medische centra 
+86.10.2 Algemene ziekenhuizen 
+86.10.3 Categorale ziekenhuizen 
+86.10.4 Geestelijke gezondheids- en verslavingszorg met overnachting"
+"425300 ";"87 Verpleging en zorg met overnachting";"Verpleging, verzorging en begeleiding met overnachting 
+Deze afdeling omvat de groepen: 
+871 Verpleeghuizen 
+872 Huizen en dagverblijven voor verstandelijk gehandicapten en psychiatrische cliënten 
+873 Huizen en dagverblijven voor niet-verstandelijk gehandicapten en verzorgingshuizen 
+879 Jeugdzorg en maatschappelijke opvang met overnachting"
+"426600 ";"88 Welzijnszorg zonder overnachting";"Maatschappelijke dienstverlening zonder overnachting"
+"428100 ";"R Cultuur, sport en recreatie";"Cultuur, sport en recreatie 
+Deze sectie omvat een wijde range aan activiteiten op het gebied van cultuur en recreatie, zoals culturele voorstellingen, musea, sport en recreatieve evenementen."
+"435500 ";"S Overige dienstverlening";"Overige dienstverlening 
+Deze sectie omvat (als restcategorie) de activiteiten van belangenverenigingen, reparatie van computers en consumentenartikelen en veel andere activiteiten op het gebied van persoonlijke dienstverlening die niet elders zijn ingedeeld."
+"300014 ";"R-U Cultuur, recreatie, overige diensten";"Cultuur, recreatie, overige diensten 
+Deze categorie is een samentelling van categorieën: 
+R Cultuur, sport en recreatie 
+S Overige dienstverlening 
+T Huishoudens als werkgever; niet- gedifferentieerde productie van goederen en diensten door huishoudens voor eigen gebruik 
+U Extraterritoriale organisaties en lichamen"
+"WP19074";"Bedrijfsgrootte: 0 tot 10 werkzame pe...";"Bedrijfsgrootte: 0 tot 10 werkzame personen
+
+Het aantal /""/werkzame personen/""/ bestaat uit: 
+- werknemers en directeuren die op de loonlijst staan;
+- werknemers die op de loonlijst staan van een andere onderneming of instelling, maar bij de eigen onderneming werkzaam zijn en als zodanig in feite tot het personeel behoren (ingeleend personeel); 
+- werkzame eigenaren, firmanten, leden van maatschappen, vennoten en medewerkende gezinsleden; 
+- uitzendkrachten. 
+Uitgeleend personeel ( Werknemers die op de loonlijst staan, maar werken bij een andere onderneming of instelling.) is hierin niet opgenomen."
+"WP19091";"Bedrijfsgrootte: 10 tot 100 werkzame ...";"Bedrijfsgrootte: 10 tot 100 werkzame personen
+
+Het aantal /""/werkzame personen/""/ bestaat uit: 
+- werknemers en directeuren die op de loonlijst staan;
+- werknemers die op de loonlijst staan van een andere onderneming of instelling, maar bij de eigen onderneming werkzaam zijn en als zodanig in feite tot het personeel behoren (ingeleend personeel); 
+- werkzame eigenaren, firmanten, leden van maatschappen, vennoten en medewerkende gezinsleden; 
+- uitzendkrachten. 
+Uitgeleend personeel ( Werknemers die op de loonlijst staan, maar werken bij een andere onderneming of instelling.) is hierin niet opgenomen."
+"WP19098";"Bedrijfsgrootte: 100 of meer werkzame...";"Bedrijfsgrootte: 100 of meer werkzame...
+
+Het aantal /""/werkzame personen/""/ bestaat uit: 
+- werknemers en directeuren die op de loonlijst staan;
+- werknemers die op de loonlijst staan van een andere onderneming of instelling, maar bij de eigen onderneming werkzaam zijn en als zodanig in feite tot het personeel behoren (ingeleend personeel); 
+- werkzame eigenaren, firmanten, leden van maatschappen, vennoten en medewerkende gezinsleden; 
+- uitzendkrachten. 
+Uitgeleend personeel ( Werknemers die op de loonlijst staan, maar werken bij een andere onderneming of instelling.) is hierin niet opgenomen."
+"Perioden"
+Key;Title;Description;Status
+"1997KW01";"1997 1e kwartaal";;"Definitief"
+"1997KW02";"1997 2e kwartaal";;"Definitief"
+"1997KW03";"1997 3e kwartaal";;"Definitief"
+"1997KW04";"1997 4e kwartaal";;"Definitief"
+"1997JJ00";"1997 jaargem. /jaartotaal";"Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+                                                ----------
+Vacatures, jaargemiddelde  =     Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";"Definitief"
+"1998KW01";"1998 1e kwartaal";;"Definitief"
+"1998KW02";"1998 2e kwartaal";;"Definitief"
+"1998KW03";"1998 3e kwartaal";;"Definitief"
+"1998KW04";"1998 4e kwartaal";;"Definitief"
+"1998JJ00";"1998 jaargem. /jaartotaal";"Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+                                                ----------
+Vacatures, jaargemiddelde  =     Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";"Definitief"
+"1999KW01";"1999 1e kwartaal";;"Definitief"
+"1999KW02";"1999 2e kwartaal";;"Definitief"
+"1999KW03";"1999 3e kwartaal";;"Definitief"
+"1999KW04";"1999 4e kwartaal";;"Definitief"
+"1999JJ00";"1999 jaargem. /jaartotaal";"Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+                                                ----------
+Vacatures, jaargemiddelde  =     Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";"Definitief"
+"2000KW01";"2000 1e kwartaal";;"Definitief"
+"2000KW02";"2000 2e kwartaal";;"Definitief"
+"2000KW03";"2000 3e kwartaal";;"Definitief"
+"2000KW04";"2000 4e kwartaal";;"Definitief"
+"2000JJ00";"2000 jaargem. /jaartotaal";"Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+                                                ----------
+Vacatures, jaargemiddelde  =     Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";"Definitief"
+"2001KW01";"2001 1e kwartaal";;"Definitief"
+"2001KW02";"2001 2e kwartaal";;"Definitief"
+"2001KW03";"2001 3e kwartaal";;"Definitief"
+"2001KW04";"2001 4e kwartaal";;"Definitief"
+"2001JJ00";"2001 jaargem. /jaartotaal";"Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+                                                ----------
+Vacatures, jaargemiddelde  =     Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";"Definitief"
+"2002KW01";"2002 1e kwartaal";;"Definitief"
+"2002KW02";"2002 2e kwartaal";;"Definitief"
+"2002KW03";"2002 3e kwartaal";;"Definitief"
+"2002KW04";"2002 4e kwartaal";;"Definitief"
+"2002JJ00";"2002 jaargem. /jaartotaal";"Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+                                                ----------
+Vacatures, jaargemiddelde  =     Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";"Definitief"
+"2003KW01";"2003 1e kwartaal";;"Definitief"
+"2003KW02";"2003 2e kwartaal";;"Definitief"
+"2003KW03";"2003 3e kwartaal";;"Definitief"
+"2003KW04";"2003 4e kwartaal";;"Definitief"
+"2003JJ00";"2003 jaargem. /jaartotaal";"Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+                                                ----------
+Vacatures, jaargemiddelde  =     Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";"Definitief"
+"2004KW01";"2004 1e kwartaal";;"Definitief"
+"2004KW02";"2004 2e kwartaal";;"Definitief"
+"2004KW03";"2004 3e kwartaal";;"Definitief"
+"2004KW04";"2004 4e kwartaal";;"Definitief"
+"2004JJ00";"2004 jaargem. /jaartotaal";"Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+                                                ----------
+Vacatures, jaargemiddelde  =     Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";"Definitief"
+"2005KW01";"2005 1e kwartaal";;"Definitief"
+"2005KW02";"2005 2e kwartaal";;"Definitief"
+"2005KW03";"2005 3e kwartaal";;"Definitief"
+"2005KW04";"2005 4e kwartaal";;"Definitief"
+"2005JJ00";"2005 jaargem. /jaartotaal";"Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+                                                ----------
+Vacatures, jaargemiddelde  =     Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";"Definitief"
+"2006KW01";"2006 1e kwartaal";;"Definitief"
+"2006KW02";"2006 2e kwartaal";;"Definitief"
+"2006KW03";"2006 3e kwartaal";;"Definitief"
+"2006KW04";"2006 4e kwartaal";;"Definitief"
+"2006JJ00";"2006 jaargem. /jaartotaal";"Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+                                                ----------
+Vacatures, jaargemiddelde  =     Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";"Definitief"
+"2007KW01";"2007 1e kwartaal";;"Definitief"
+"2007KW02";"2007 2e kwartaal";;"Definitief"
+"2007KW03";"2007 3e kwartaal";;"Definitief"
+"2007KW04";"2007 4e kwartaal";;"Definitief"
+"2007JJ00";"2007 jaargem. /jaartotaal";"Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+                                                ----------
+Vacatures, jaargemiddelde  =     Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";"Definitief"
+"2008KW01";"2008 1e kwartaal";;"Definitief"
+"2008KW02";"2008 2e kwartaal";;"Definitief"
+"2008KW03";"2008 3e kwartaal";;"Definitief"
+"2008KW04";"2008 4e kwartaal";;"Definitief"
+"2008JJ00";"2008 jaargem. /jaartotaal";"Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+                                                ----------
+Vacatures, jaargemiddelde  =     Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";"Definitief"
+"2009KW01";"2009 1e kwartaal";;"Definitief"
+"2009KW02";"2009 2e kwartaal";;"Definitief"
+"2009KW03";"2009 3e kwartaal";;"Definitief"
+"2009KW04";"2009 4e kwartaal";;"Definitief"
+"2009JJ00";"2009 jaargem. /jaartotaal";"Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+                                                ----------
+Vacatures, jaargemiddelde  =     Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";"Definitief"
+"2010KW01";"2010 1e kwartaal";;"Definitief"
+"2010KW02";"2010 2e kwartaal";;"Definitief"
+"2010KW03";"2010 3e kwartaal";;"Definitief"
+"2010KW04";"2010 4e kwartaal";;"Definitief"
+"2010JJ00";"2010 jaargem. /jaartotaal";"Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+                                                ----------
+Vacatures, jaargemiddelde  =     Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";"Definitief"
+"2011KW01";"2011 1e kwartaal";;"Definitief"
+"2011KW02";"2011 2e kwartaal";;"Definitief"
+"2011KW03";"2011 3e kwartaal";;"Definitief"
+"2011KW04";"2011 4e kwartaal";;"Definitief"
+"2011JJ00";"2011 jaargem. /jaartotaal";"Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+                                                ----------
+Vacatures, jaargemiddelde  =     Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";"Definitief"
+"2012KW01";"2012 1e kwartaal";;"Definitief"
+"2012KW02";"2012 2e kwartaal";;"Definitief"
+"2012KW03";"2012 3e kwartaal";;"Definitief"
+"2012KW04";"2012 4e kwartaal";;"Definitief"
+"2012JJ00";"2012 jaargem. /jaartotaal";"Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+                                                ----------
+Vacatures, jaargemiddelde  =     Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";"Definitief"
+"2013KW01";"2013 1e kwartaal";;"Definitief"
+"2013KW02";"2013 2e kwartaal";;"Definitief"
+"2013KW03";"2013 3e kwartaal";;"Definitief"
+"2013KW04";"2013 4e kwartaal";;"Definitief"
+"2013JJ00";"2013 jaargem. /jaartotaal";"Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+                                                ----------
+Vacatures, jaargemiddelde  =     Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";"Definitief"
+"2014KW01";"2014 1e kwartaal";;"Definitief"
+"2014KW02";"2014 2e kwartaal";;"Definitief"
+"2014KW03";"2014 3e kwartaal";;"Definitief"
+"2014KW04";"2014 4e kwartaal";;"Definitief"
+"2014JJ00";"2014 jaargem. /jaartotaal";"Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+                                                ----------
+Vacatures, jaargemiddelde  =     Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";"Definitief"
+"2015KW01";"2015 1e kwartaal";;"Definitief"
+"2015KW02";"2015 2e kwartaal";;"Definitief"
+"2015KW03";"2015 3e kwartaal";;"Definitief"
+"2015KW04";"2015 4e kwartaal";;"Definitief"
+"2015JJ00";"2015 jaargem. /jaartotaal";"Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+                                                ----------
+Vacatures, jaargemiddelde  =     Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";"Definitief"
+"2016KW01";"2016 1e kwartaal";;"Definitief"
+"2016KW02";"2016 2e kwartaal";"";"Definitief"
+"2016KW03";"2016 3e kwartaal";;"Definitief"
+"2016KW04";"2016 4e kwartaal";;"Definitief"
+"2016JJ00";"2016 jaargem. /jaartotaal";"Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+                                                ----------
+Vacatures, jaargemiddelde  =     Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";"Definitief"
+"2017KW01";"2017 1e kwartaal";;"Definitief"
+"2017KW02";"2017 2e kwartaal";;"Definitief"
+"2017KW03";"2017 3e kwartaal";;"Definitief"
+"2017KW04";"2017 4e kwartaal";;"Definitief"
+"2017JJ00";"2017 jaargem. /jaartotaal";"Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+                                                ----------
+Vacatures, jaargemiddelde  =     Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";"Definitief"
+"2018KW01";"2018 1e kwartaal";;"Definitief"
+"2018KW02";"2018 2e kwartaal";;"Definitief"
+"2018KW03";"2018 3e kwartaal";;"Definitief"
+"2018KW04";"2018 4e kwartaal";;"Definitief"
+"2018JJ00";"2018 jaargem. /jaartotaal";"Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+                                                ----------
+Vacatures, jaargemiddelde  =     Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";"Definitief"
+"2019KW01";"2019 1e kwartaal";;"Definitief"
+"2019KW02";"2019 2e kwartaal";;"Definitief"
+"2019KW03";"2019 3e kwartaal";;"Definitief"
+"2019KW04";"2019 4e kwartaal";;"Definitief"
+"2019JJ00";"2019 jaargem. /jaartotaal";"Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+                                                ----------
+Vacatures, jaargemiddelde  =     Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";"Definitief"
+"2020KW01";"2020 1e kwartaal";;"Definitief"
+"2020KW02";"2020 2e kwartaal";;"Definitief"
+"2020KW03";"2020 3e kwartaal";;"Definitief"
+"2020KW04";"2020 4e kwartaal";;"Definitief"
+"2020JJ00";"2020 jaargem. /jaartotaal";"Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+                                                ----------
+Vacatures, jaargemiddelde  =     Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";"Definitief"
+"2021KW01";"2021 1e kwartaal";;"Definitief"
+"2021KW02";"2021 2e kwartaal";;"Definitief"
+"2021KW03";"2021 3e kwartaal";;"Definitief"
+"2021KW04";"2021 4e kwartaal";;"Definitief"
+"2021JJ00";"2021 jaargem. /jaartotaal";"Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+                                                ----------
+Vacatures, jaargemiddelde  =     Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";"Definitief"
+"2022KW01";"2022 1e kwartaal";"";"Definitief"
+"2022KW02";"2022 2e kwartaal";;"Definitief"
+"2022KW03";"2022 3e kwartaal";"";"Definitief"
+"2022KW04";"2022 4e kwartaal";"";"Definitief"
+"2022JJ00";"2022 jaargem. /jaartotaal";"Het jaarcijfer van de openstaande vacatures is een gewogen gemiddelde en wordt als volgt berekend:
+Vacatures 4e kwartaal voorafgaande verslagjaar, gewicht 1
+Vacatures 1e, 2e, 3e kwartaal verslagjaar,      gewicht 2
+Vacatures 4e kwartaal verslagjaar,              gewicht 1
+                                                ----------
+Vacatures, jaargemiddelde  =     Totaal aantal vacatures/8
+De jaaruitkomst van de ontstane en vervulde vacatures is het totaal van de vier kwartalen.";"Definitief"
+"2023KW01";"2023 1e kwartaal";;"Definitief"
+"2023KW02";"2023 2e kwartaal";;"Definitief"

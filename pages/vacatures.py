@@ -1,27 +1,44 @@
 import dash
-from dash import Dash, html, dash_table, dcc, callback, Output, Input
-import pandas as pd
+from dash import html, dcc, callback, Output, Input
+from my_app.plot_grafieken import plot_bargraph
 import plotly.express as px
-from my_app.plot_grafieken import plot_table
-from my_app.datauitlezen import vacatures_uitlezen
+
 
 #This tells Dash that this is a page
 dash.register_page(__name__)
 
-vacatures_df = plot_table()
+# Define layout of the page
+fig, sectoren_options, vacatures_df = plot_bargraph()
 
 #App layout
-layout = html.Div([
+layout = html.Div(children=[
+    html.Div([
+    html.H1(children="Bar Graph Sectoren"),
 
-    dcc.Dropdown(),
-    #dash_table.DataTable(data=vacatures_df.to_dict('records'), page_size=10),
-    dcc.Graph(figure={}, id='controls-and-graph')
+    # Dropdown for sectors
+    dcc.Dropdown(
+        id="sector-vacatures-options",
+        options=sectoren_options,
+        value=sectoren_options[0]["value"] #Set an initial value
+    ),
+
+    # Graph to display vacatures per sector
+    dcc.Graph(
+        id="sector-vacatures-graph",
+        figure= fig
+    )
+    ])
 ])
 
 #Add controls to build the interaction
 @callback(
-        Output(component_id='controls-and-graph', component_property='figure'),
-        Input(component_id='controls-and-radio-item', component_property='value')
+        Output('sector-vacatures-graph', 'figure'),
+        [Input('sector-vacatures-options', 'value')]
 )
-def update_graph(col_chosen):
-    fig = px.histogram(vacatures_df, x='Perioden', y=col_chosen, histfunc='avg')
+def update_graph(sector_chosen):
+    # Filter dataframe based on sector chosen
+    filtered_df = vacatures_df[(vacatures_df["Bedrijfskenmerken"] == sector_chosen)]
+
+    # Create a new line graph based on sector chosen
+    fig = px.bar(filtered_df, x="Perioden", y="OpenstaandeVacatures_1", title="Openstaande Vacatures Per Sector")
+    return fig

@@ -14,10 +14,10 @@ T001081,A-U Alle economische activiteiten
 350000,F Bouwnijverheid
 354200,G Handel
 300006,"G-I Handel, vervoer en horeca"
-300007,G-N Commerci�le dienstverlening
+300007,G-N Commerciële dienstverlening
 354300,45 Autohandel en -reparatie
 356900,46 Groothandel en handelsbemiddeling
-371600,47 Detailhandel (niet in auto�s)
+371600,47 Detailhandel (niet in auto’s)
 371700,471 Supermarkten en warenhuizen
 372200,472 Winkels in voedingsmiddelen
 383100,H Vervoer en opslag
@@ -27,10 +27,10 @@ T001081,A-U Alle economische activiteiten
 389100,I Horeca
 391600,J Informatie en communicatie
 391705,"58-60 Uitgeverijen, film,radio en t.v."
-396300,K Financi�le dienstverlening
+396300,K Financiële dienstverlening
 396400,64 Bankwezen
 398700,65 Verzekeraars en pensioenfondsen
-400200,66 Overige financi�le dienstverlening
+400200,66 Overige financiële dienstverlening
 402000,L Verhuur en handel van onroerend goed
 300010,M-N Zakelijke dienstverlening
 403300,M Specialistische zakelijke diensten
@@ -46,7 +46,7 @@ T001081,A-U Alle economische activiteiten
 419700,853 Voortgezet onderwijs
 420700,854 Hoger onderwijs
 422400,Q Gezondheids- en welzijnszorg
-300013,O-U Niet-commerci�le dienstverlening
+300013,O-U Niet-commerciële dienstverlening
 300012,O-Q Overheid en zorg
 422600,861 Ziekenhuizen
 425300,87 Verpleging en zorg met overnachting
