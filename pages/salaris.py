@@ -22,65 +22,42 @@ layout = dbc.Container(
         dbc.Row(
             dbc.Col(
                 html.Div([
-                    html.H4(id='tekst_salaris', children='Maandloon per sector'),
+                    html.H2(id='tekst_salaris', children='Kies de sector:'),
 
                     # Dropdown for work branches
                     dcc.Dropdown(
                         id='salaris-work-branch-dropdown',
                         options=work_branch_options,
-                        value=work_branch_options[0]['value']  # Set an initial value
+                        value=work_branch_options[0]['value'],  # Set an initial value
+                        style={
+                                'backgroundColor': 'whitesmoke'
+                            }
                     ),
-
                     # Graph to display salaris data
                     dcc.Graph(
                         id='salaris-example-graph',
-                        figure=fig_salaris,
-                        
+                        figure=fig_salaris, 
                     ),
                 ]),
                 width=12,
             )
         ),
-
-    dbc.Row(
+        
+        dbc.Row(
             [
                 dbc.Col(
                     html.Div([
-                       html.H4(id='tekst_geslacht', children='Salaris Mannen en Vrouwen'),
                         # Graph to display salaris geslacht data
                         dcc.Graph(
                             id='geslacht-example-graph',
                             figure=fig_geslacht,
-                            
                         ),
                     ]),
-                    width=6,
+                    width=4,
                 ),
+                
                 dbc.Col(
                     html.Div([
-                        html.H4(id='tekst_werkuren', children='aantal werkuren per week voor Mannen en Vrouwen'),
-                        dcc.Dropdown(
-                        id='werkuren-work-branch-dropdown',
-                        options=work_branch_options_werkuren,
-                        value=work_branch_options_werkuren[0]['value']  # Set an initial value
-                    ),
-                        # Table to display salaris leeftijd data
-                         dash_table.DataTable(
-                            id='work-hours-table',
-                            columns=[
-                            {'name': 'Jaar', 'id': 'Jaar'},
-                            {'name': 'Aantal uur per week', 'id': 'PerBaanPerWeekExclusiefOverwerk_11'},
-                            {'name': 'Geslacht', 'id': 'KenmerkenBaanWerknemerBedrijf'},
-                        ],
-                        )
-                    ]),
-                    width=6,
-                ),
-            dbc.Row(
-            [
-                dbc.Col(
-                    html.Div([
-                        html.H4(id='tekst_leeftijd', children='Salaris verschillende leeftijden'),
                         # Graph to display salaris leeftijd data
                         dcc.Graph(
                             id='leeftijden-example-graph',
@@ -89,36 +66,71 @@ layout = dbc.Container(
                     ]),
                     width=8,
                 ),
-                 dbc.Col(
+            ]
+        ),
+        
+        dbc.Row(
+            [
+                dbc.Col(
                     html.Div([
-                        html.H4(id='tekst_werkuren_leeftijd', children='aantal werkuren per week voor Mannen en Vrouwen'),
+                        html.H2(id='tekst_aanvullend', children='Selecteer sector voor aanvullende informatie:'),
+                        dcc.Dropdown(
+                            id='werkuren-work-branch-dropdown',
+                            options=work_branch_options_werkuren,
+                            value=work_branch_options_werkuren[0]['value'],  # Set an initial value
+                            style={
+                                'backgroundColor': 'whitesmoke'
+                            }
+                        ),
+                        html.H5(id='tekst_werkuren_geslacht', children='Aantal werkuren voor mannen en vrouwen'),
                         # Table to display salaris leeftijd data
-                         dash_table.DataTable(
+                        dash_table.DataTable(
                             style_header={
-                            'backgroundColor': 'lightgrey',
-                            'color': 'black',
+                                'backgroundColor': 'grey',
+                                'color': 'black',
                             },
                             style_data={
-                            'backgroundColor': 'grey',
-                            'color': 'black'
+                                'backgroundColor': 'whitesmoke',
+                                'color': 'black'
+                            },
+                            id='work-hours-table',
+                            columns=[
+                                {'name': 'Jaar', 'id': 'Jaar'},
+                                {'name': 'Aantal uur per week', 'id': 'PerBaanPerWeekExclusiefOverwerk_11'},
+                                {'name': 'Geslacht', 'id': 'KenmerkenBaanWerknemerBedrijf'},
+                            ],
+                        )
+                    ]),
+                    width=6,
+                ),
+                
+                dbc.Col(
+                    html.Div([
+                        html.H5(id='tekst_werkuren_leeftijd', children='Aantal werkuren bij verschillende leeftijden'),
+                        # Table to display salaris leeftijd data
+                        dash_table.DataTable(
+                            style_header={
+                                'backgroundColor': 'grey',
+                                'color': 'black',
+                            },
+                            style_data={
+                                'backgroundColor': 'whitesmoke',
+                                'color': 'black'
                             },
                             id='work-hours-table-leeftijd',
                             columns=[
-                            {'name': 'Jaar', 'id': 'Jaar'},
-                            {'name': 'Aantal uur per week', 'id': 'PerBaanPerWeekExclusiefOverwerk_11'},
-                            {'name': 'leeftijd', 'id': 'KenmerkenBaanWerknemerBedrijf'},
-                            
-                        ],
-                        )
+                                {'name': 'Jaar', 'id': 'Jaar'},
+                                {'name': 'Aantal uur per week', 'id': 'PerBaanPerWeekExclusiefOverwerk_11'},
+                                {'name': 'Leeftijd', 'id': 'KenmerkenBaanWerknemerBedrijf'}, 
+                            ],
+                        )  
                     ]),
-                    width=4,
-                 )    
+                    width=6,                                
+                ), 
             ],
         ),
     ]
 )
-    ])
-
 @callback(
     [Output('salaris-example-graph', 'figure'),
      Output('geslacht-example-graph', 'figure'),
@@ -150,17 +162,17 @@ def update_graph(selected_branch):
     average_salary_per_year_leeftijd = filtered_df_leeftijd.groupby(['Jaar', 'KenmerkenBaan'])['MaandloonExclusiefOverwerk_6'].mean().reset_index()
     
     # Create new bar graphs with the filtered data
-    fig_salaris = px.line(filtered_df, x='Perioden', y='MaandloonExclusiefOverwerk_6', labels={'MaandloonExclusiefOverwerk_6': 'Maandloon'})
+    fig_salaris = px.line(filtered_df, x='Perioden', y='MaandloonExclusiefOverwerk_6', title='Het maandloon per sector', labels={'MaandloonExclusiefOverwerk_6': 'Maandloon'})
     fig_geslacht = px.bar(average_salary_per_year_gender, x="Jaar", y="MaandloonExclusiefOverwerk_6", color="KenmerkenBaan",
-                          barmode='group', labels={'MaandloonExclusiefOverwerk_6': 'Gemiddeld Maandloon'})
+                          barmode='group', title='Het maandloon voor mannen en vrouwen', labels={'MaandloonExclusiefOverwerk_6': 'Gemiddeld Maandloon'})
     fig_leeftijd = px.bar(average_salary_per_year_leeftijd, x="Jaar", y="MaandloonExclusiefOverwerk_6", color="KenmerkenBaan",
-                          barmode='group', labels={'MaandloonExclusiefOverwerk_6': 'Gemiddeld Maandloon'})
+                          barmode='group', title='Het maandloon per leeftijd', labels={'MaandloonExclusiefOverwerk_6': 'Gemiddeld Maandloon'})
         
     # Update colors for graphs
-    fig_salaris.update_layout(template="plotly_dark")
-    fig_salaris.update_xaxes(gridcolor="black")
-    fig_leeftijd.update_layout(template="plotly_white")
-    fig_geslacht.update_layout(template="simple_white")  
+    fig_salaris.update_layout(template="plotly_white", paper_bgcolor="#F8F8F8", title_x=0.5)
+    fig_salaris.update_xaxes(gridcolor="white")
+    fig_leeftijd.update_layout(template="plotly_white", paper_bgcolor="#F8F8F8",title_x=0.5)
+    fig_geslacht.update_layout(template="plotly_white", paper_bgcolor="#F8F8F8",title_x=0.5)  
     
     return fig_salaris, fig_geslacht, fig_leeftijd
 
