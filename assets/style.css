@@ -13,13 +13,13 @@
 }
 #leeftijden-example-graph{
     height: 400px;
-    width: 1000px;
-    margin-left: 250px;
+    width: 800px;
+    margin-left: 10px;
 }
 
 #salaris-work-branch-dropdown-leeftijd{
-    width: 600px;
-    margin: auto;
+    width: 800px;
+    margin-left: 10px;
 }
 
 #salaris-work-branch-dropdown{
@@ -36,7 +36,7 @@
 }
 
 #tekst_leeftijd{
-    text-align: center;
+    margin-left: 10px;
 }
 
 #tekst_salaris{
@@ -48,3 +48,26 @@
     width: 700px;
 }
 
+#work-hours-table{
+    width: 350px;
+    margin-top: 40px;
+}
+
+#working-branch-dropdown{
+    width: 350px;
+}
+
+#work-hours-table-leeftijd{
+    height: 250px;
+    width: 400px;
+    margin-left: 100px;
+    background-color: blue;
+}
+#werkuren-leeftijd-work-branch-dropdown{
+    width: 400px;
+    margin-left: 100px;
+}
+#tekst_werkuren_leeftijd{
+    width: 400px;
+    margin-left: 100px;
+}
