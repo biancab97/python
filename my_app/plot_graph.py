@@ -9,7 +9,7 @@ def plot_line_graph():
     df_salaris = salarisUitlezen()
     df_metadata = salarisBrancheLabels()
     
-       # Create a mapping dictionary
+    # Create a mapping dictionary
     Perioden_mapping = {
         '2022MM01': 'Jan 2022',
         '2022MM02': 'Feb 2022',
@@ -158,7 +158,6 @@ def werkuren_leeftijd():
     
     # Apply the mapping to the "KenmerkenBaan" column
     df_werkuren_leeftijd['KenmerkenBaanWerknemerBedrijf'] = df_werkuren_leeftijd['KenmerkenBaanWerknemerBedrijf'].map(leeftijd_mapping)
-
 
     # Get unique values from both dataframes
     werkuren_branches = df_werkuren_leeftijd['BedrijfstakkenBranchesSBI2008'].unique()

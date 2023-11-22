@@ -13,7 +13,7 @@ dash.register_page(__name__)
 # Define the layout of the page
 fig_leeftijd, work_branch_options_leeftijd, df_salaris_leeftijd = plot_barchart_leeftijd()
 fig_geslacht, work_branch_options_geslacht, df_salaris_geslacht = plot_barchart_geslacht()
-fig, work_branch_options, df_salaris = plot_line_graph()
+fig_salaris, work_branch_options, df_salaris = plot_line_graph()
 work_branch_options_werkuren, df_werkuren = werkuren()
 work_branch_options_werkuren_leeftijd, df_werkuren_leeftijd = werkuren_leeftijd()
 
@@ -34,7 +34,7 @@ layout = dbc.Container(
                     # Graph to display salaris data
                     dcc.Graph(
                         id='salaris-example-graph',
-                        figure=fig,
+                        figure=fig_salaris,
                         
                     ),
                 ]),
@@ -42,7 +42,7 @@ layout = dbc.Container(
             )
         ),
 
-        dbc.Row(
+    dbc.Row(
             [
                 dbc.Col(
                     html.Div([
@@ -64,7 +64,7 @@ layout = dbc.Container(
                         options=work_branch_options_werkuren,
                         value=work_branch_options_werkuren[0]['value']  # Set an initial value
                     ),
-                        # Graph to display salaris leeftijd data
+                        # Table to display salaris leeftijd data
                          dash_table.DataTable(
                             id='work-hours-table',
                             columns=[
@@ -92,7 +92,7 @@ layout = dbc.Container(
                  dbc.Col(
                     html.Div([
                         html.H4(id='tekst_werkuren_leeftijd', children='aantal werkuren per week voor Mannen en Vrouwen'),
-                        # Graph to display salaris leeftijd data
+                        # Table to display salaris leeftijd data
                          dash_table.DataTable(
                             style_header={
                             'backgroundColor': 'lightgrey',
@@ -120,7 +120,9 @@ layout = dbc.Container(
     ])
 
 @callback(
-    Output('salaris-example-graph', 'figure'),
+    [Output('salaris-example-graph', 'figure'),
+     Output('geslacht-example-graph', 'figure'),
+     Output('leeftijden-example-graph', 'figure'),],
     [Input('salaris-work-branch-dropdown', 'value')]
 )
 def update_graph(selected_branch):
@@ -133,62 +135,46 @@ def update_graph(selected_branch):
     Returns:
     - fig (plotly.graph_objs.Figure): The updated bar graph.
     '''
+    
     # Filter the data based on the selected work branch
     filtered_df = df_salaris[(df_salaris['BedrijfstakkenBranchesSBI2008'] == selected_branch)]
-    
-    # Create a new bar graph with the filtered data
-    fig = px.line(filtered_df, x='Perioden', y='MaandloonExclusiefOverwerk_6', labels={'MaandloonExclusiefOverwerk_6': 'Maandloon'})
-    fig.update_layout(template="plotly_dark")
-    fig.update_xaxes(gridcolor="black")
-    return fig
-
-@callback(
-    [Output('geslacht-example-graph', 'figure'),
-     Output('leeftijden-example-graph', 'figure')],
-    [Input('salaris-work-branch-dropdown', 'value')]
-)
-def update_graph(selected_branch):
-    # Update graph for geslacht
     filtered_df_geslacht = df_salaris_geslacht[(df_salaris_geslacht['BedrijfstakkenBranchesSBI2008'] == selected_branch)]
+    filtered_df_leeftijd = df_salaris_leeftijd[(df_salaris_leeftijd['BedrijfstakkenBranchesSBI2008'] == selected_branch)]
+    
     # Get unique values for the "KenmerkenBaan" column
     df_salaris_geslacht['KenmerkenBaan'] = df_salaris_geslacht['KenmerkenBaan'].astype(str)
+    df_salaris_leeftijd['KenmerkenBaan'] = df_salaris_leeftijd['KenmerkenBaan'].astype(str)
+    
     # Calculate the average salary for each year and gender
     average_salary_per_year_gender = filtered_df_geslacht.groupby(['Jaar', 'KenmerkenBaan'])['MaandloonExclusiefOverwerk_6'].mean().reset_index()
-   # Create a bar chart for each 'Jaar' with the average salary split by gender
-    fig_geslacht = px.bar(average_salary_per_year_gender, x="Jaar", y="MaandloonExclusiefOverwerk_6", color="KenmerkenBaan",
-                          barmode='group', labels={'MaandloonExclusiefOverwerk_6': 'Gemiddeld Maandloon'})
-
-    # Update graph for leeftijd
-    filtered_df_leeftijd = df_salaris_leeftijd[(df_salaris_leeftijd['BedrijfstakkenBranchesSBI2008'] == selected_branch)]
-    # Get unique values for the "KenmerkenBaan" column
-    df_salaris_leeftijd['KenmerkenBaan'] = df_salaris_leeftijd['KenmerkenBaan'].astype(str)
-    # Calculate the average salary for each year and gender
     average_salary_per_year_leeftijd = filtered_df_leeftijd.groupby(['Jaar', 'KenmerkenBaan'])['MaandloonExclusiefOverwerk_6'].mean().reset_index()
     
+    # Create new bar graphs with the filtered data
+    fig_salaris = px.line(filtered_df, x='Perioden', y='MaandloonExclusiefOverwerk_6', labels={'MaandloonExclusiefOverwerk_6': 'Maandloon'})
+    fig_geslacht = px.bar(average_salary_per_year_gender, x="Jaar", y="MaandloonExclusiefOverwerk_6", color="KenmerkenBaan",
+                          barmode='group', labels={'MaandloonExclusiefOverwerk_6': 'Gemiddeld Maandloon'})
     fig_leeftijd = px.bar(average_salary_per_year_leeftijd, x="Jaar", y="MaandloonExclusiefOverwerk_6", color="KenmerkenBaan",
                           barmode='group', labels={'MaandloonExclusiefOverwerk_6': 'Gemiddeld Maandloon'})
+        
+    # Update colors for graphs
+    fig_salaris.update_layout(template="plotly_dark")
+    fig_salaris.update_xaxes(gridcolor="black")
     fig_leeftijd.update_layout(template="plotly_white")
-    fig_geslacht.update_layout(template="simple_white")
-    return fig_geslacht, fig_leeftijd
+    fig_geslacht.update_layout(template="simple_white")  
+    
+    return fig_salaris, fig_geslacht, fig_leeftijd
 
 @callback(
-        [Output('work-hours-table', 'data'),
-         Output('work-hours-table-leeftijd', 'data')],
-        [Input('werkuren-work-branch-dropdown', 'value')],
+    [Output('work-hours-table', 'data'),
+     Output('work-hours-table-leeftijd', 'data'),],
+    [Input('werkuren-work-branch-dropdown', 'value')]
 )
-def update_graph_werkuren(selected_branch):
-    filtered_data_table = df_werkuren[(df_werkuren['BedrijfstakkenBranchesSBI2008'] == selected_branch)]
+def update_graph(selected_branch):
+    filtered_data_table_geslacht = df_werkuren[(df_werkuren['BedrijfstakkenBranchesSBI2008'] == selected_branch)]
+    filtered_data_table_leeftijd = df_werkuren_leeftijd[(df_werkuren_leeftijd['BedrijfstakkenBranchesSBI2008'] == selected_branch)]
+    
+    # Convert the DataFrames to dictionaries for the tables with the filtered data
+    data_dict_table_geslacht = filtered_data_table_geslacht.to_dict('records')
+    data_dict_table_leeftijd = filtered_data_table_leeftijd.to_dict('records')
 
-    # Convert the DataFrame to a dictionary for the table
-    data_dict_table = filtered_data_table.to_dict('records')
-
-    filtered_data_table = df_werkuren_leeftijd[(df_werkuren_leeftijd['BedrijfstakkenBranchesSBI2008'] == selected_branch)]
-
-    # Convert the DataFrame to a dictionary for the table
-    data_dict_table_leeftijd = filtered_data_table.to_dict('records')
-
-    return data_dict_table, data_dict_table_leeftijd
-
-
-
-
+    return data_dict_table_geslacht, data_dict_table_leeftijd
