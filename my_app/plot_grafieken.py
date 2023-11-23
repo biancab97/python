@@ -1,7 +1,9 @@
 from my_app.datauitlezen import vacaturesUitlezen, vacatureLabels, vacaturesRegioUitlezen, regioLabels
 import plotly.express as px
 import pandas as pd
-#import geopandas as gpd
+import requests
+from requests_file import FileAdapter
+import json
 
 # Plot linegraph
 def plot_bargraph():
@@ -45,29 +47,17 @@ def plot_bargraph():
 def plot_map():
     vacatures_regio_df = vacaturesRegioUitlezen()
     regios_metadata_df = regioLabels()
-    print(vacatures_regio_df)
-    print(regios_metadata_df)
+    #print(vacatures_regio_df)
+    #print(regios_metadata_df)
 
-    # Create a mapping dictionary for regions
-    regio_mapping = {
-        'NL01': 'Nederland',
-        'LD01': 'Noord-Nederland',
-        'LD02': 'Oost-Nederland',
-        'LD03': 'West-Nederland',
-        'LD04': 'Zuid-Nederland',
-        'PV20': 'Groningen',
-        'PV21': 'Friesland',
-        'PV22': 'Drenthe',
-        'PV23': 'Overijssel',
-        'PV24': 'Flevoland',
-        'PV25': 'Gelderland',
-        'PV26': 'Utrecht',
-        'PV27': 'Noord-Holland',
-        'PV28': 'Zuid-Holland',
-        'PV29': 'Zeeland',
-        'PV30': 'Noord-Brabant',
-        'PV31': 'Limburg'
-    }
+    # Load GeoJSON file
+    s = requests.Session()
+    s.mount('file://', FileAdapter())
+
+    provincies = s.get('file:///C:/Users/Student/OneDrive/Bureaublad/python/data/provincies.json')
+    provinciesDataRaw = provincies.json()
+    provinciesData = provinciesDataRaw["features"]
+    #print(provinciesData)
 
     # Create a mapping dictionary for periods
     perioden_mapping = {
@@ -88,7 +78,7 @@ def plot_map():
     }
 
     # Apply the mapping for regions on Regios column
-    vacatures_regio_df['Regios'] = vacatures_regio_df['Regios'].astype(str).map(regio_mapping)
+    #vacatures_regio_df['Regios'] = vacatures_regio_df['Regios'].astype(str).map(regio_mapping)
     #Apply the mapping on Perioden column
     vacatures_regio_df['Perioden'] = vacatures_regio_df['Perioden'].astype(str).map(perioden_mapping)
     # Get unique values from both dataframes
@@ -100,8 +90,15 @@ def plot_map():
     regios_options = [{'label': title, 'value': regio} for title, regio in zip(regios_metadata, vacatures_regio)]
 
     # Create an initial chloropleth map
-    fig_map = px.choropleth(vacatures_regio_df)
-    print(fig_map)
-    print(regios_options)
-    print(vacatures_regio_df)
+    fig_map = px.choropleth_mapbox(vacatures_regio_df, geojson=provinciesDataRaw, locations='Regios', color='OpenstaandeVacatures', featureidkey="id",
+                           color_continuous_scale="Viridis",
+                           range_color=(0, 2),
+                           mapbox_style="open-street-map",
+                           zoom=6, center = {"lat": 52.14898973341009, "lon": 5.571005662096867},
+                           opacity=0.5,
+                           labels={'OpenstaandeVacatures':'Openstaande Vacatures'}
+                          )
+    #print(fig_map)
+    #print(regios_options)
+    #print(vacatures_regio_df)
     return fig_map, regios_options, vacatures_regio_df

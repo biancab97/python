@@ -37,14 +37,14 @@ def vacaturesRegioUitlezen():
     vacatures_regio_mask = (vacatures_regio_df["Jaar"] >= 2020)
     vacatures_regio_df = vacatures_regio_df[vacatures_regio_mask]
     #Selected columns
-    print(vacatures_regio_df)
-    vacatures_regio_df = vacatures_regio_df["OpenstaandeVacatures", "Jaar"]
+    #print(vacatures_regio_df)
+    vacatures_regio_df = vacatures_regio_df[["Regios", "OpenstaandeVacatures", "Perioden", "Jaar"]]
     return vacatures_regio_df
 
 # Create function to define different areas/regions in The Netherlands
 def regioLabels():
     #Specify path file
-    regios_metadata = 'regios_metadata.csv'
+    regios_metadata = 'data/regios_metadata.csv'
     # Read the CSV file into a Pandas dataframe
     regios_metadata_df = pd.read_csv(regios_metadata, delimiter=',')
     return regios_metadata_df
