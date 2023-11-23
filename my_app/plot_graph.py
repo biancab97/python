@@ -44,7 +44,7 @@ def plot_line_graph():
     work_branch_options = [{'label': title, 'value': branch} for title, branch in zip(metadata_titles, salaris_branches)]
     
     # Create an initial bar graph using Plotly Express
-    fig = px.line(df_salaris, x="Jaar", y="MaandloonExclusiefOverwerk_6")
+    fig = px.line(df_salaris, x="Perioden", y="MaandloonExclusiefOverwerk_6")
     
     return fig, work_branch_options, df_salaris
 
@@ -77,7 +77,7 @@ def plot_barchart_geslacht():
 
     # Create a bar chart for each 'Jaar' with the average salary split by gender
     fig_geslacht = px.bar(average_salary_per_year_gender, x="Jaar", y="MaandloonExclusiefOverwerk_6", color="KenmerkenBaan",
-                 barmode='group', labels={'MaandloonExclusiefOverwerk_6': 'Average Maandloon'})
+                 barmode='group')
     
     return fig_geslacht, work_branch_options_geslacht, df_salaris_geslacht    
 
@@ -117,7 +117,7 @@ def plot_barchart_leeftijd():
 
     # Create a bar chart for each 'Jaar' with the average salary split by gender
     fig_leeftijd = px.bar(average_salary_per_year_gender, x="Jaar", y="MaandloonExclusiefOverwerk_6", color="KenmerkenBaan",
-                 barmode='group', labels={'MaandloonExclusiefOverwerk_6': 'Average Maandloon'})
+                 barmode='group')
     
     return fig_leeftijd, work_branch_options_leeftijd, df_salaris_leeftijd    
 

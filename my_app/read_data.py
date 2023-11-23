@@ -121,7 +121,7 @@ def werkurenUitlezen():
     df_werkuren_leeftijd = df_werkuren_leeftijd[werkuren_mask2]
 
     # Selected columns
-    df_werkuren_leeftijd = df_werkuren_leeftijd[["KenmerkenBaanWerknemerBedrijf", "BedrijfstakkenBranchesSBI2008", "Perioden", "PerBaanPerWeekExclusiefOverwerk_11", "Jaar"]]
+    df_werkuren_leeftijd = df_werkuren_leeftijd[["KenmerkenBaanWerknemerBedrijf", "BedrijfstakkenBranchesSBI2008", "Uurloon_3", "Perioden", "PerBaanPerWeekExclusiefOverwerk_11", "Jaar"]]
 
     return df_werkuren_leeftijd
 
@@ -149,7 +149,7 @@ def werkurenLeeftijdUitlezen():
     df_werkuren_leeftijd = df_werkuren_leeftijd[werkuren_mask2]
 
     # Selected columns
-    df_werkuren_leeftijd = df_werkuren_leeftijd[["KenmerkenBaanWerknemerBedrijf", "BedrijfstakkenBranchesSBI2008", "Perioden", "PerBaanPerWeekExclusiefOverwerk_11", "Jaar"]]
+    df_werkuren_leeftijd = df_werkuren_leeftijd[["KenmerkenBaanWerknemerBedrijf", "BedrijfstakkenBranchesSBI2008", "Uurloon_3", "Perioden", "PerBaanPerWeekExclusiefOverwerk_11", "Jaar"]]
     
     return df_werkuren_leeftijd
     

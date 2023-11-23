@@ -96,6 +96,7 @@ layout = dbc.Container(
                             id='work-hours-table',
                             columns=[
                                 {'name': 'Jaar', 'id': 'Jaar'},
+                                {'name': 'Uurloon', 'id': 'Uurloon_3'},
                                 {'name': 'Aantal uur per week', 'id': 'PerBaanPerWeekExclusiefOverwerk_11'},
                                 {'name': 'Geslacht', 'id': 'KenmerkenBaanWerknemerBedrijf'},
                             ],
@@ -120,8 +121,9 @@ layout = dbc.Container(
                             id='work-hours-table-leeftijd',
                             columns=[
                                 {'name': 'Jaar', 'id': 'Jaar'},
+                                {'name': 'Uurloon', 'id': 'Uurloon_3'}, 
                                 {'name': 'Aantal uur per week', 'id': 'PerBaanPerWeekExclusiefOverwerk_11'},
-                                {'name': 'Leeftijd', 'id': 'KenmerkenBaanWerknemerBedrijf'}, 
+                                {'name': 'Leeftijd', 'id': 'KenmerkenBaanWerknemerBedrijf'},
                             ],
                         )  
                     ]),
