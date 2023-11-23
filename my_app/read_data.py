@@ -42,15 +42,6 @@ def salarisBrancheLabels():
     
     return df_metadata
 
-def kenmerkenBaanLabels():
-     # Specify the path for the metadata file
-    kenmerken_file = 'data/KenmerkenBaancodes.csv'
-    
-    # Read the CSV file into a Pandas DataFrame
-    df_kenmerken = pd.read_csv(kenmerken_file, delimiter=';')
-    
-    return df_kenmerken
-
 def geslachtSalaris():
      # Specify the path for the salaris data file
     salaris_file = 'data/salarisdata.csv'
@@ -97,5 +88,70 @@ def leeftijdenSalaris():
     df_salaris.drop(df_salaris[(df_salaris['KenmerkenBaan'] == '100460') & (df_salaris['KenmerkenBaan'] == '100470')].index, inplace=True)    
 
     return df_salaris
+
+def werkurenUitlezen():
+    '''
+    Selects rows from the DataFrame starting for the year 2022.
+    Selected columns include:
+    - KenmerkenBaanWerknemerBedrijf
+    - BedrijfstakkenBranchesSBI2008
+    - Perioden
+    - PerBaanPerWeekExclusiefOverwerk_11
+    - jaar
+    '''
+    # Specify the path for the werkuren file
+    werkuren_file = 'data/werkuren.csv'
+
+    # Read the CSV file into a Pandas DataFrame
+    df_werkuren_leeftijd = pd.read_csv(werkuren_file, delimiter=';')
+    
+    # Drop rows with 'BedrijfstakkenBranchesSBI2008' value 800009
+    df_werkuren_leeftijd.drop(df_werkuren_leeftijd[(df_werkuren_leeftijd['BedrijfstakkenBranchesSBI2008'] == '800009')].index, inplace=True)   
+   
+    # Mask to select only years from 2022 and 'KenmerkenBaanWerknemerBedrijf' equals 3000 and 4000
+    werkuren_mask = (df_werkuren_leeftijd["KenmerkenBaanWerknemerBedrijf"] .isin(['3000', '4000']))
+    df_werkuren_leeftijd = df_werkuren_leeftijd[werkuren_mask]
+
+    # Select only the first 4 characters of the 'Perioden' column
+    df_werkuren_leeftijd["Jaar"] = df_werkuren_leeftijd["Perioden"].str[:4]
+    df_werkuren_leeftijd["Jaar"] = df_werkuren_leeftijd["Jaar"].astype('int64')
+
+    # Mask to select only years from 2022 and 'KenmerkenBaanWerknemerBedrijf' equals 3000 and 4000
+    werkuren_mask2 = (df_werkuren_leeftijd["Jaar"] == 2022) 
+    df_werkuren_leeftijd = df_werkuren_leeftijd[werkuren_mask2]
+
+    # Selected columns
+    df_werkuren_leeftijd = df_werkuren_leeftijd[["KenmerkenBaanWerknemerBedrijf", "BedrijfstakkenBranchesSBI2008", "Uurloon_3", "Perioden", "PerBaanPerWeekExclusiefOverwerk_11", "Jaar"]]
+
+    return df_werkuren_leeftijd
+
+def werkurenLeeftijdUitlezen():
+    # Specify the path for the werkuren file
+    werkuren_file = 'data/werkuren.csv'
+
+    # Read the CSV file into a Pandas DataFrame
+    df_werkuren_leeftijd = pd.read_csv(werkuren_file, delimiter=';')
+    
+    # Drop rows with 'BedrijfstakkenBranchesSBI2008' value 800009
+    df_werkuren_leeftijd.drop(df_werkuren_leeftijd[(df_werkuren_leeftijd['BedrijfstakkenBranchesSBI2008'] == '800009')].index, inplace=True)   
+   
+    # Mask to select only years from 2022 and 'KenmerkenBaanWerknemerBedrijf' equals 3000 and 4000
+    werkuren_mask = (df_werkuren_leeftijd["KenmerkenBaanWerknemerBedrijf"] .isin(['70500', '70600', '70700', '70800', '70900', '71000', '71100', '71200', '71300']))
+    df_werkuren_leeftijd = df_werkuren_leeftijd[werkuren_mask]
+
+    # Select only the first 4 characters of the 'Perioden' column
+    df_werkuren_leeftijd["Jaar"] = df_werkuren_leeftijd["Perioden"].str[:4]
+    df_werkuren_leeftijd["Jaar"] = df_werkuren_leeftijd["Jaar"].astype('int64')
+
+
+    # Mask to select only years from 2022 and 'KenmerkenBaanWerknemerBedrijf' equals 3000 and 4000
+    werkuren_mask2 = (df_werkuren_leeftijd["Jaar"] == 2022) 
+    df_werkuren_leeftijd = df_werkuren_leeftijd[werkuren_mask2]
+
+    # Selected columns
+    df_werkuren_leeftijd = df_werkuren_leeftijd[["KenmerkenBaanWerknemerBedrijf", "BedrijfstakkenBranchesSBI2008", "Uurloon_3", "Perioden", "PerBaanPerWeekExclusiefOverwerk_11", "Jaar"]]
+    
+    return df_werkuren_leeftijd
+    
 
 

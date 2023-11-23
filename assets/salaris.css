@@ -1,0 +1,75 @@
+body{
+    background-color: #F8F8F8;
+}
+
+#geslacht-example-graph{
+    height: 400px;
+    width: 400px;
+    margin-left: 20px;  
+}
+
+#salaris-work-branch-dropdown-geslacht{
+    width: 400px;
+    margin: auto;   
+}
+#leeftijden-example-graph{
+    height: 400px;
+    width: 800px;
+    margin-left: 60px;
+}
+
+#salaris-work-branch-dropdown-leeftijd{
+    width: 800px;
+    margin-left: 10px;
+}
+
+#salaris-work-branch-dropdown{
+    width: 100%;
+    text-align: center;
+}
+
+#salaris-example-graph{
+    margin-left: 20px;
+    width: 1250px;
+    margin-top: 40px;
+}
+
+#tekst_salaris{
+    text-align: center;
+    margin: 10px;
+}
+
+#werkuren-work-branch-dropdown{
+    margin-right: 10px;
+    width: 1300px;
+    text-align: center;
+}
+
+#work-hours-table{
+    width: 350px;
+    margin-left: 80px;
+}
+
+#work-hours-table-leeftijd{
+    height: 250px;
+    width: 450px;
+    margin-left: 80px;
+    margin-bottom: 100px;
+}
+
+#tekst_werkuren_leeftijd{
+    width: 600px;
+    margin-left: 80px;
+    margin-top: 200px;
+}
+
+#tekst_aanvullend{
+    width: 800px;
+    margin-left: 300px;
+    margin-top: 60px;
+}
+
+#tekst_werkuren_geslacht{
+    margin-top: 60px;
+    margin-left: 60px;
+}
