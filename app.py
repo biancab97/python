@@ -11,7 +11,7 @@ app = dash_app.server
 #Set layout of the entire app
 dash_app.layout = html.Div(
        [#Framework of the main app
-        html.Div("Python MultiPage Match App", style={'fontSize': 50, 'textAlign':'center'}),
+        html.Div("Dashboard Match App", style={'fontSize': 50, 'textAlign':'center'}),
         html.Div([
             dcc.Link(page['name'] + " | ", href=page['path'])
             for page in dash.page_registry.values()
