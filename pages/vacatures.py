@@ -64,6 +64,8 @@ def update_graph(sector_chosen):
 
     # Create a new line graph based on sector chosen
     fig = px.bar(filtered_df, x="Perioden", y="OpenstaandeVacatures_1", title="Openstaande Vacatures Per Sector")
+
+    fig.update_layout(template="plotly_white", paper_bgcolor="#F8F8F8", title_x=0.5)
     return fig
 
 #Add controls to build the interaction
@@ -75,4 +77,6 @@ def update_graph(sector_chosen):
 def update_table(sector_chosen):
     filtered_df_tabel = vacatures_df[(vacatures_df["Bedrijfskenmerken"] == sector_chosen)]
     filtered_tabel = filtered_df_tabel.to_dict('records')
+
+    #filtered_tabel.update_layout()
     return filtered_tabel
